@@ -1,0 +1,311 @@
+grandadmiral:~/workspace $ cd week5
+grandadmiral:~/workspace/week5 $ cd Task3
+grandadmiral:~/workspace/week5/Task3 $ sqlite3 stockdb.sqlite
+SQLite version 3.8.2 2013-12-06 14:53:30
+Enter ".help" for instructions
+Enter SQL statements terminated with a ";"
+sqlite> .help
+.backup ?DB? FILE      Backup DB (default "main") to FILE
+.bail ON|OFF           Stop after hitting an error.  Default OFF
+.databases             List names and files of attached databases
+.dump ?TABLE? ...      Dump the database in an SQL text format
+                         If TABLE specified, only dump tables matching
+                         LIKE pattern TABLE.
+.echo ON|OFF           Turn command echo on or off
+.exit                  Exit this program
+.explain ?ON|OFF?      Turn output mode suitable for EXPLAIN on or off.
+                         With no args, it turns EXPLAIN on.
+.header(s) ON|OFF      Turn display of headers on or off
+.help                  Show this message
+.import FILE TABLE     Import data from FILE into TABLE
+.indices ?TABLE?       Show names of all indices
+                         If TABLE specified, only show indices for tables
+                         matching LIKE pattern TABLE.
+.load FILE ?ENTRY?     Load an extension library
+.log FILE|off          Turn logging on or off.  FILE can be stderr/stdout
+.mode MODE ?TABLE?     Set output mode where MODE is one of:
+                         csv      Comma-separated values
+                         column   Left-aligned columns.  (See .width)
+                         html     HTML <table> code
+                         insert   SQL insert statements for TABLE
+                         line     One value per line
+                         list     Values delimited by .separator string
+                         tabs     Tab-separated values
+                         tcl      TCL list elements
+.nullvalue STRING      Use STRING in place of NULL values
+.open ?FILENAME?       Close existing database and reopen FILENAME
+.output FILENAME       Send output to FILENAME
+.output stdout         Send output to the screen
+.print STRING...       Print literal STRING
+.prompt MAIN CONTINUE  Replace the standard prompts
+.quit                  Exit this program
+.read FILENAME         Execute SQL in FILENAME
+.restore ?DB? FILE     Restore content of DB (default "main") from FILE
+.schema ?TABLE?        Show the CREATE statements
+                         If TABLE specified, only show tables matching
+                         LIKE pattern TABLE.
+.separator STRING      Change separator used by output mode and .import
+.show                  Show the current values for various settings
+.stats ON|OFF          Turn stats on or off
+.tables ?TABLE?        List names of tables
+                         If TABLE specified, only list tables matching
+                         LIKE pattern TABLE.
+.timeout MS            Try opening locked tables for MS milliseconds
+.trace FILE|off        Output each SQL statement as it is run
+.vfsname ?AUX?         Print the name of the VFS stack
+.width NUM1 NUM2 ...   Set column widths for "column" mode
+.timer ON|OFF          Turn the CPU timer measurement on or off
+sqlite> .read stockdatabase.sql
+
+sqlite> .tables
+Customers  Orders     Stock    
+sqlite> SELECT * FROM Stock;
+1|Marcel's Morsels|1500|1.25|Delectable delicious delicacies
+2|Fred's Fries|1000|0.75|Fabulous french fries
+3|Craig's Cabbages|500|15|Cool & crazy cabbages
+sqlite> .dump Customers
+PRAGMA foreign_keys=OFF;
+BEGIN TRANSACTION;
+CREATE TABLE Customers (
+        Id INTEGER PRIMARY KEY,
+        Name VARCHAR(20) default '' NOT NULL,
+        Address VARCHAR(80),
+        Email VARCHAR(30));
+INSERT INTO "Customers" VALUES(1,'Bob','123 Fake St, Logan','bob@someisp.com');
+INSERT INTO "Customers" VALUES(2,'Sally','1000 Fun St, Nathan','sally@gmail.com');
+INSERT INTO "Customers" VALUES(3,'John','700 Friendly St, Woodridge','john@anotherisp.com');
+COMMIT;
+sqlite> .dump tablename
+PRAGMA foreign_keys=OFF;
+BEGIN TRANSACTION;
+COMMIT;
+sqlite> .dump
+PRAGMA foreign_keys=OFF;
+BEGIN TRANSACTION;
+CREATE TABLE Stock (
+        Id INTEGER PRIMARY KEY,
+        Name VARCHAR(20) DEFAULT '' NOT NULL UNIQUE,
+        Quantity INT DEFAULT '0' NOT NULL,
+        Price DECIMAL(8,2) NOT NULL,
+        Description TEXT);
+INSERT INTO "Stock" VALUES(1,'Marcel''s Morsels',1500,1.25,'Delectable delicious delicacies');
+INSERT INTO "Stock" VALUES(2,'Fred''s Fries',1000,0.75,'Fabulous french fries');
+INSERT INTO "Stock" VALUES(3,'Craig''s Cabbages',500,15,'Cool & crazy cabbages');
+CREATE TABLE Customers (
+        Id INTEGER PRIMARY KEY,
+        Address VARCHAR(80),
+        Email VARCHAR(30));
+INSERT INTO "Customers" VALUES(1,'Bob','123 Fake St, Logan','bob@someisp.com');
+INSERT INTO "Customers" VALUES(2,'Sally','1000 Fun St, Nathan','sally@gmail.com');
+INSERT INTO "Customers" VALUES(3,'John','700 Friendly St, Woodridge','john@anotherisp.com');
+CREATE TABLE Orders (
+        Id INTEGER PRIMARY KEY,
+        ItemId INTEGER NOT NULL REFERENCES Stock(Id),
+        CustId INTEGER NOT NULL REFERENCES Customers(Id),
+        OrderDate DATE,
+        Quantity INT DEFAULT '0');
+INSERT INTO "Orders" VALUES(1,1,1,'2006-03-22',10);
+INSERT INTO "Orders" VALUES(2,1,3,'2006-03-23',20);
+INSERT INTO "Orders" VALUES(3,2,2,'2006-03-24',30);
+INSERT INTO "Orders" VALUES(4,2,3,'2006-03-24',40);
+COMMIT;
+sqlite> select * from customers
+   ...> 
+   ...> ;
+1|Bob|123 Fake St, Logan|bob@someisp.com
+2|Sally|1000 Fun St, Nathan|sally@gmail.com
+3|John|700 Friendly St, Woodridge|john@anotherisp.com
+sqlite> select * from Customers
+   ...> ;
+1|Bob|123 Fake St, Logan|bob@someisp.com
+2|Sally|1000 Fun St, Nathan|sally@gmail.com
+3|John|700 Friendly St, Woodridge|john@anotherisp.com
+sqlite> select * from Orders;
+1|1|1|2006-03-22|10
+2|1|3|2006-03-23|20
+3|2|2|2006-03-24|30
+4|2|3|2006-03-24|40
+sqlite> select * Stock;
+Error: near "Stock": syntax error
+sqlite> .tables
+Customers  Orders     Stock    
+sqlite> select * from Stock;
+1|Marcel's Morsels|1500|1.25|Delectable delicious delicacies
+2|Fred's Fries|1000|0.75|Fabulous french fries
+3|Craig's Cabbages|500|15|Cool & crazy cabbages
+sqlite> Select * from Orders where Orders.ItemID == Stock.Id;
+Error: no such column: Stock.Id
+sqlite> Select * from Orders,Stock where Orders.ItemID == Stock.Id;          
+1|1|1|2006-03-22|10|1|Marcel's Morsels|1500|1.25|Delectable delicious delicacies
+2|1|3|2006-03-23|20|1|Marcel's Morsels|1500|1.25|Delectable delicious delicacies
+3|2|2|2006-03-24|30|2|Fred's Fries|1000|0.75|Fabulous french fries
+4|2|3|2006-03-24|40|2|Fred's Fries|1000|0.75|Fabulous french fries
+sqlite> Select * from Orders,Stock,Customers where Orders.ItemID == Stock.Id;                                                           
+1|1|1|2006-03-22|10|1|Marcel's Morsels|1500|1.25|Delectable delicious delicacies|1|Bob|123 Fake St, Logan|bob@someisp.com
+1|1|1|2006-03-22|10|1|Marcel's Morsels|1500|1.25|Delectable delicious delicacies|2|Sally|1000 Fun St, Nathan|sally@gmail.com
+1|1|1|2006-03-22|10|1|Marcel's Morsels|1500|1.25|Delectable delicious delicacies|3|John|700 Friendly St, Woodridge|john@anotherisp.com
+2|1|3|2006-03-23|20|1|Marcel's Morsels|1500|1.25|Delectable delicious delicacies|1|Bob|123 Fake St, Logan|bob@someisp.com
+2|1|3|2006-03-23|20|1|Marcel's Morsels|1500|1.25|Delectable delicious delicacies|2|Sally|1000 Fun St, Nathan|sally@gmail.com
+2|1|3|2006-03-23|20|1|Marcel's Morsels|1500|1.25|Delectable delicious delicacies|3|John|700 Friendly St, Woodridge|john@anotherisp.com
+3|2|2|2006-03-24|30|2|Fred's Fries|1000|0.75|Fabulous french fries|1|Bob|123 Fake St, Logan|bob@someisp.com
+3|2|2|2006-03-24|30|2|Fred's Fries|1000|0.75|Fabulous french fries|2|Sally|1000 Fun St, Nathan|sally@gmail.com
+3|2|2|2006-03-24|30|2|Fred's Fries|1000|0.75|Fabulous french fries|3|John|700 Friendly St, Woodridge|john@anotherisp.com
+4|2|3|2006-03-24|40|2|Fred's Fries|1000|0.75|Fabulous french fries|1|Bob|123 Fake St, Logan|bob@someisp.com
+4|2|3|2006-03-24|40|2|Fred's Fries|1000|0.75|Fabulous french fries|2|Sally|1000 Fun St, Nathan|sally@gmail.com
+4|2|3|2006-03-24|40|2|Fred's Fries|1000|0.75|Fabulous french fries|3|John|700 Friendly St, Woodridge|john@anotherisp.com
+sqlite> Select * from Orders,Stock,Customers;
+1|1|1|2006-03-22|10|3|Craig's Cabbages|500|15|Cool & crazy cabbages|2|Sally|1000 Fun St, Nathan|sally@gmail.com
+1|1|1|2006-03-22|10|3|Craig's Cabbages|500|15|Cool & crazy cabbages|3|John|700 Friendly St, Woodridge|john@anotherisp.com
+2|1|3|2006-03-23|20|1|Marcel's Morsels|1500|1.25|Delectable delicious delicacies|1|Bob|123 Fake St, Logan|bob@someisp.com
+2|1|3|2006-03-23|20|1|Marcel's Morsels|1500|1.25|Delectable delicious delicacies|2|Sally|1000 Fun St, Nathan|sally@gmail.com
+2|1|3|2006-03-23|20|1|Marcel's Morsels|1500|1.25|Delectable delicious delicacies|3|John|700 Friendly St, Woodridge|john@anotherisp.com
+2|1|3|2006-03-23|20|2|Fred's Fries|1000|0.75|Fabulous french fries|1|Bob|123 Fake St, Logan|bob@someisp.com
+2|1|3|2006-03-23|20|2|Fred's Fries|1000|0.75|Fabulous french fries|2|Sally|1000 Fun St, Nathan|sally@gmail.com
+2|1|3|2006-03-23|20|2|Fred's Fries|1000|0.75|Fabulous french fries|3|John|700 Friendly St, Woodridge|john@anotherisp.com
+2|1|3|2006-03-23|20|3|Craig's Cabbages|500|15|Cool & crazy cabbages|1|Bob|123 Fake St, Logan|bob@someisp.com
+2|1|3|2006-03-23|20|3|Craig's Cabbages|500|15|Cool & crazy cabbages|2|Sally|1000 Fun St, Nathan|sally@gmail.com
+2|1|3|2006-03-23|20|3|Craig's Cabbages|500|15|Cool & crazy cabbages|3|John|700 Friendly St, Woodridge|john@anotherisp.com
+3|2|2|2006-03-24|30|1|Marcel's Morsels|1500|1.25|Delectable delicious delicacies|1|Bob|123 Fake St, Logan|bob@someisp.com
+3|2|2|2006-03-24|30|1|Marcel's Morsels|1500|1.25|Delectable delicious delicacies|2|Sally|1000 Fun St, Nathan|sally@gmail.com
+3|2|2|2006-03-24|30|1|Marcel's Morsels|1500|1.25|Delectable delicious delicacies|3|John|700 Friendly St, Woodridge|john@anotherisp.com
+3|2|2|2006-03-24|30|2|Fred's Fries|1000|0.75|Fabulous french fries|1|Bob|123 Fake St, Logan|bob@someisp.com
+3|2|2|2006-03-24|30|2|Fred's Fries|1000|0.75|Fabulous french fries|2|Sally|1000 Fun St, Nathan|sally@gmail.com
+3|2|2|2006-03-24|30|2|Fred's Fries|1000|0.75|Fabulous french fries|3|John|700 Friendly St, Woodridge|john@anotherisp.com
+3|2|2|2006-03-24|30|3|Craig's Cabbages|500|15|Cool & crazy cabbages|1|Bob|123 Fake St, Logan|bob@someisp.com
+3|2|2|2006-03-24|30|3|Craig's Cabbages|500|15|Cool & crazy cabbages|2|Sally|1000 Fun St, Nathan|sally@gmail.com
+3|2|2|2006-03-24|30|3|Craig's Cabbages|500|15|Cool & crazy cabbages|3|John|700 Friendly St, Woodridge|john@anotherisp.com
+4|2|3|2006-03-24|40|1|Marcel's Morsels|1500|1.25|Delectable delicious delicacies|1|Bob|123 Fake St, Logan|bob@someisp.com
+4|2|3|2006-03-24|40|1|Marcel's Morsels|1500|1.25|Delectable delicious delicacies|2|Sally|1000 Fun St, Nathan|sally@gmail.com
+4|2|3|2006-03-24|40|1|Marcel's Morsels|1500|1.25|Delectable delicious delicacies|3|John|700 Friendly St, Woodridge|john@anotherisp.com
+4|2|3|2006-03-24|40|2|Fred's Fries|1000|0.75|Fabulous french fries|1|Bob|123 Fake St, Logan|bob@someisp.com
+4|2|3|2006-03-24|40|2|Fred's Fries|1000|0.75|Fabulous french fries|2|Sally|1000 Fun St, Nathan|sally@gmail.com
+4|2|3|2006-03-24|40|2|Fred's Fries|1000|0.75|Fabulous french fries|3|John|700 Friendly St, Woodridge|john@anotherisp.com
+4|2|3|2006-03-24|40|3|Craig's Cabbages|500|15|Cool & crazy cabbages|1|Bob|123 Fake St, Logan|bob@someisp.com
+4|2|3|2006-03-24|40|3|Craig's Cabbages|500|15|Cool & crazy cabbages|2|Sally|1000 Fun St, Nathan|sally@gmail.com
+4|2|3|2006-03-24|40|3|Craig's Cabbages|500|15|Cool & crazy cabbages|3|John|700 Friendly St, Woodridge|john@anotherisp.com
+sqlite> Select * from Orders,Stock,Customers where Orders.ItemID == Stock.Id;
+1|1|1|2006-03-22|10|1|Marcel's Morsels|1500|1.25|Delectable delicious delicacies|1|Bob|123 Fake St, Logan|bob@someisp.com
+1|1|1|2006-03-22|10|1|Marcel's Morsels|1500|1.25|Delectable delicious delicacies|2|Sally|1000 Fun St, Nathan|sally@gmail.com
+1|1|1|2006-03-22|10|1|Marcel's Morsels|1500|1.25|Delectable delicious delicacies|3|John|700 Friendly St, Woodridge|john@anotherisp.com
+2|1|3|2006-03-23|20|1|Marcel's Morsels|1500|1.25|Delectable delicious delicacies|1|Bob|123 Fake St, Logan|bob@someisp.1|1|1|2006-03-22|10|1|Marcel's Morsels|1500|1.25|Delectable delicious delicacies|2|Sally|1000 Fun St, Nathan|sally@gmail.com1|1|1|2006-03-22|10|1|Marcel's Morsels|1500|1.25|Delectable delicious delicacies|3|John|700 Friendly St, Woodridge|john@anotherisp.com2|1|3|2006-03-23|20|1|Marcel's Morsels|1500|1.25|Delectable delicious delicacies|1|Bob|123 Fake St, Logan|bob@someisp.com
+2|1|3|2006-03-23|20|1|Marcel's Morsels|1500|1.25|Delectable delicious delicacies|2|Sally|1000 Fun St, Nathan|sally@gmail.com
+2|1|3|2006-03-23|20|1|Marcel's Morsels|1500|1.25|Delectable delicious delicacies|3|John|700 Friendly St, Woodridge|john@anotherisp.com
+3|2|2|2006-03-24|30|2|Fred's Fries|1000|0.75|Fabulous french fries|1|Bob|123 Fake St, Logan|bob@someisp.com
+3|2|2|2006-03-24|30|2|Fred's Fries|1000|0.75|Fabulous french fries|2|Sally|1000 Fun St, Nathan|sally@gmail.com
+3|2|2|2006-03-24|30|2|Fred's Fries|1000|0.75|Fabulous french fries|3|John|700 Friendly St, Woodridge|john@anotherisp.com
+4|2|3|2006-03-24|40|2|Fred's Fries|1000|0.75|Fabulous french fries|1|Bob|123 Fake St, Logan|bob@someisp.com
+4|2|3|2006-03-24|40|2|Fred's Fries|1000|0.75|Fabulous french fries|2|Sally|1000 Fun St, Nathan|sally@gmail.com
+4|2|3|2006-03-24|40|2|Fred's Fries|1000|0.75|Fabulous french fries|3|John|700 Friendly St, Woodridge|john@anotherisp.com
+sqlite> Select * from Orders,Stock,Customers where Orders.ItemID == Stock.Id && Stock.Name == "Fred's Fries";
+Error: near "&": syntax error
+sqlite> Select * from Orders,Stock,Customers where Orders.ItemID == Stock.Id & Stock.Name == "Fred's Fries";                                                                           
+sqlite> Select * from Orders,Stock,Customers where Orders.ItemID == Stock.Id & Stock.Name == "Fred's Fries";
+sqlite> Select * from Orders,Stock,Customers where Orders.ItemID == Stock.Id and Stock.Name == "Fred's Fries";                                                   
+3|2|2|2006-03-24|30|2|Fred's Fries|1000|0.75|Fabulous french fries|1|Bob|123 Fake St, Logan|bob@someisp.com
+4|2|3|2006-03-24|40|2|Fred's Fries|1000|0.75|Fabulous french fries|1|Bob|123 Fake St, Logan|bob@someisp.com
+3|2|2|2006-03-24|30|2|Fred's Fries|1000|0.75|Fabulous french fries|2|Sally|1000 Fun St, Nathan|sally@gmail.com
+4|2|3|2006-03-24|40|2|Fred's Fries|1000|0.75|Fabulous french fries|2|Sally|1000 Fun St, Nathan|sally@gmail.com
+3|2|2|2006-03-24|30|2|Fred's Fries|1000|0.75|Fabulous french fries|3|John|700 Friendly St, Woodridge|john@anotherisp.com
+4|2|3|2006-03-24|40|2|Fred's Fries|1000|0.75|Fabulous french fries|3|John|700 Friendly St, Woodridge|john@anotherisp.com
+sqlite> exit
+   ...> ;
+Error: near "exit": syntax error
+sqlite> ^C
+sqlite> end
+   ...> 
+   ...> ^C
+   ...> ;
+Error: cannot commit - no transaction is active
+sqlite> .read pms.sql
+6|5|Andrew Fisher|1908-11-13|1909-06-02|Labour|0 years, 6 months, 21 days|Queensland
+8|0|Andrew Fisher|1910-04-29|1913-06-24|Labor|3 years, 1 month, 26 days|Queensland
+10|0|Andrew Fisher|1914-09-17|1915-10-27|Labor|1 year, 1 month, 11 days|Queensland
+17|13|Arthur Fadden|1941-08-28|1941-10-07|Country|0 years, 1 month, 9 days|Queensland
+19|15|Frank Forde|1945-07-06|1945-07-13|Labor|0 years, 0 months, 8 days|Queensland
+31|26|Kevin Rudd|2007-12-03|2010-06-24|Labor|2 years, 6 months, 21 days| Queensland
+
+sqlite> .tables
+Customers  Orders     Stock      pms      
+sqlite> select * from pms
+   ...> ;
+1|1|Edmund Barton|1901-01-01|1903-09-24|Protectionist|2 years, 8 months, 24 days|New South Wales
+2|2|Alfred Deakin|1903-09-24|1904-04-27|Protectionist|0 years, 7 months, 4 days|Victoria
+3|3|Chris Watson|1904-04-27|1904-08-18|Labour|0 years, 3 months, 21 days|New South Wales
+4|4|George Reid|1904-08-18|1905-07-05|Free Trade|0 years, 10 months, 18 days|New South Wales
+5|0|Alfred Deakin|1905-07-05|1908-11-13|Protectionist|3 years, 4 months, 9 days|Victoria
+6|5|Andrew Fisher|1908-11-13|1909-06-02|Labour|0 years, 6 months, 21 days|Queensland
+7|0|Alfred Deakin|1909-06-02|1910-04-29|Commonwealth Liberal|0 years, 10 months, 28 days|Victoria
+8|0|Andrew Fisher|1910-04-29|1913-06-24|Labor|3 years, 1 month, 26 days|Queensland
+9|6|Joseph Cook|1913-06-24|1914-09-17|Commonwealth Liberal|1 year, 2 months, 25 days|New South Wales
+10|0|Andrew Fisher|1914-09-17|1915-10-27|Labor|1 year, 1 month, 11 days|Queensland
+11|7|Billy Hughes|1915-10-27|1923-02-09|Labor/Nationalist|7 years, 3 months, 14 days|New South Wales, Victoria
+12|8|Stanley Bruce|1923-02-09|1929-10-22|Nationalist|6 years, 8 months, 14 days|Victoria
+13|9|James Scullin|1929-10-22|1932-01-06|Labor|2 years, 2 months, 16 days|Victoria
+14|10|Joseph Lyons|1932-01-06|1939-04-07|United Australia|7 years, 3 months, 2 days|Tasmania
+15|11|Earle Page|1939-04-07|1939-04-26|Country|0 years, 0 months, 20 days|New South Wales
+16|12|Robert Menzies|1939-04-26|1941-08-28|United Australia|2 years, 4 months, 4 days|Victoria
+17|13|Arthur Fadden|1941-08-28|1941-10-07|Country|0 years, 1 month, 9 days|Queensland
+18|14|John Curtin|1941-10-07|1945-07-05|Labor|3 years, 8 months, 29 days|Western Australia
+19|15|Frank Forde|1945-07-06|1945-07-13|Labor|0 years, 0 months, 8 days|Queensland
+20|16|Ben Chifley|1945-07-13|1949-12-19|Labor|4 years, 5 months, 7 days|New South Wales
+21|0|Robert Menzies|1949-12-19|1966-01-26|Liberal|16 years, 1 month, 8 days|Victoria
+22|17|Harold Holt|1966-01-26|1967-12-19|Liberal|1 year, 10 months, 23 days|Victoria
+23|18|John McEwen|1967-12-19|1968-01-10|Country|0 years, 0 months, 23 days|Victoria
+24|19|John Gorton|1968-01-10|1971-03-10|Liberal|3 years, 2 months, 0 days|Victoria
+25|20|William McMahon|1971-03-10|1972-12-05|Liberal|1 year, 8 months, 25 days|New South Wales
+26|21|Gough Whitlam|1972-12-05|1975-11-11|Labor|2 years, 11 months, 7 days|New South Wales
+27|22|Malcolm Fraser|1975-11-11|1983-03-11|Liberal|7 years, 4 months, 0 days|Victoria
+28|23|Bob Hawke|1983-03-11|1991-12-20|Labor|8 years, 9 months, 10 days|Victoria
+29|24|Paul Keating|1991-12-20|1996-03-11|Labor|4 years, 2 months, 20 days|New South Wales
+30|25|John Howard|1996-03-11|2007-12-03|Liberal|11 years, 8 months, 23 days|New South Wales
+31|26|Kevin Rudd|2007-12-03|2010-06-24|Labor|2 years, 6 months, 21 days| Queensland
+32|27|Julia Gillard|2010-06-24||Labor|0 years, 9 months, 27 days| Victoria
+sqlite> .dump pms
+PRAGMA foreign_keys=OFF;
+BEGIN TRANSACTION;
+CREATE TABLE pms (
+  id integer primary key autoincrement,
+  number int, /* 0 = subsequent term */
+  name varchar(40) not null,
+  start date not null,
+  finish date,
+  party varchar(40),
+  duration varchar(40),
+  state varchar(40)
+);
+INSERT INTO "pms" VALUES(1,1,'Edmund Barton','1901-01-01','1903-09-24','Protectionist','2 years, 8 months, 24 days','New South Wales');
+INSERT INTO "pms" VALUES(2,2,'Alfred Deakin','1903-09-24','1904-04-27','Protectionist','0 years, 7 months, 4 days','Victoria');
+INSERT INTO "pms" VALUES(3,3,'Chris Watson','1904-04-27','1904-08-18','Labour','0 years, 3 months, 21 days','New South Wales');
+INSERT INTO "pms" VALUES(4,4,'George Reid','1904-08-18','1905-07-05','Free Trade','0 years, 10 months, 18 days','New South Wales');
+INSERT INTO "pms" VALUES(5,0,'Alfred Deakin','1905-07-05','1908-11-13','Protectionist','3 years, 4 months, 9 days','Victoria');
+INSERT INTO "pms" VALUES(6,5,'Andrew Fisher','1908-11-13','1909-06-02','Labour','0 years, 6 months, 21 days','Queensland');
+INSERT INTO "pms" VALUES(7,0,'Alfred Deakin','1909-06-02','1910-04-29','Commonwealth Liberal','0 years, 10 months, 28 days','Victoria');
+INSERT INTO "pms" VALUES(8,0,'Andrew Fisher','1910-04-29','1913-06-24','Labor','3 years, 1 month, 26 days','Queensland');
+INSERT INTO "pms" VALUES(9,6,'Joseph Cook','1913-06-24','1914-09-17','Commonwealth Liberal','1 year, 2 months, 25 days','New South Wales');
+INSERT INTO "pms" VALUES(10,0,'Andrew Fisher','1914-09-17','1915-10-27','Labor','1 year, 1 month, 11 days','Queensland');
+INSERT INTO "pms" VALUES(11,7,'Billy Hughes','1915-10-27','1923-02-09','Labor/Nationalist','7 years, 3 months, 14 days','New South Wales, Victoria');
+INSERT INTO "pms" VALUES(12,8,'Stanley Bruce','1923-02-09','1929-10-22','Nationalist','6 years, 8 months, 14 days','Victoria');
+INSERT INTO "pms" VALUES(13,9,'James Scullin','1929-10-22','1932-01-06','Labor','2 years, 2 months, 16 days','Victoria');
+INSERT INTO "pms" VALUES(14,10,'Joseph Lyons','1932-01-06','1939-04-07','United Australia','7 years, 3 months, 2 days','Tasmania');
+INSERT INTO "pms" VALUES(15,11,'Earle Page','1939-04-07','1939-04-26','Country','0 years, 0 months, 20 days','New South Wales');
+INSERT INTO "pms" VALUES(16,12,'Robert Menzies','1939-04-26','1941-08-28','United Australia','2 years, 4 months, 4 days','Victoria');
+INSERT INTO "pms" VALUES(17,13,'Arthur Fadden','1941-08-28','1941-10-07','Country','0 years, 1 month, 9 days','Queensland');
+INSERT INTO "pms" VALUES(18,14,'John Curtin','1941-10-07','1945-07-05','Labor','3 years, 8 months, 29 days','Western Australia');
+INSERT INTO "pms" VALUES(19,15,'Frank Forde','1945-07-06','1945-07-13','Labor','0 years, 0 months, 8 days','Queensland');
+INSERT INTO "pms" VALUES(20,16,'Ben Chifley','1945-07-13','1949-12-19','Labor','4 years, 5 months, 7 days','New South Wales');
+INSERT INTO "pms" VALUES(21,0,'Robert Menzies','1949-12-19','1966-01-26','Liberal','16 years, 1 month, 8 days','Victoria');
+INSERT INTO "pms" VALUES(22,17,'Harold Holt','1966-01-26','1967-12-19','Liberal','1 year, 10 months, 23 days','Victoria');
+INSERT INTO "pms" VALUES(23,18,'John McEwen','1967-12-19','1968-01-10','Country','0 years, 0 months, 23 days','Victoria');
+INSERT INTO "pms" VALUES(24,19,'John Gorton','1968-01-10','1971-03-10','Liberal','3 years, 2 months, 0 days','Victoria');
+INSERT INTO "pms" VALUES(25,20,'William McMahon','1971-03-10','1972-12-05','Liberal','1 year, 8 months, 25 days','New South Wales');
+INSERT INTO "pms" VALUES(26,21,'Gough Whitlam','1972-12-05','1975-11-11','Labor','2 years, 11 months, 7 days','New South Wales');
+INSERT INTO "pms" VALUES(27,22,'Malcolm Fraser','1975-11-11','1983-03-11','Liberal','7 years, 4 months, 0 days','Victoria');
+INSERT INTO "pms" VALUES(28,23,'Bob Hawke','1983-03-11','1991-12-20','Labor','8 years, 9 months, 10 days','Victoria');
+INSERT INTO "pms" VALUES(29,24,'Paul Keating','1991-12-20','1996-03-11','Labor','4 years, 2 months, 20 days','New South Wales');
+INSERT INTO "pms" VALUES(30,25,'John Howard','1996-03-11','2007-12-03','Liberal','11 years, 8 months, 23 days','New South Wales');
+INSERT INTO "pms" VALUES(31,26,'Kevin Rudd','2007-12-03','2010-06-24','Labor','2 years, 6 months, 21 days',' Queensland');
+INSERT INTO "pms" VALUES(32,27,'Julia Gillard','2010-06-24',NULL,'Labor','0 years, 9 months, 27 days',' Victoria');
+COMMIT;
+sqlite> select * from pms where name like "%Howard";
+30|25|John Howard|1996-03-11|2007-12-03|Liberal|11 years, 8 months, 23 days|New South Wales
+sqlite> 

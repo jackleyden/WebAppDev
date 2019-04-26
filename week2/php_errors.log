@@ -1,0 +1,766 @@
+[25-Jul-2018 08:27:19 UTC] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /home/ubuntu/workspace/week2/Task1/index.php on line 60
+[25-Jul-2018 08:28:17 UTC] PHP Parse error:  syntax error, unexpected '$posts' (T_VARIABLE) in /home/ubuntu/workspace/week2/Task1/index.php on line 115
+[25-Jul-2018 08:30:25 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/week2/Task1/index.php on line 184
+[25-Jul-2018 08:48:02 UTC] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /home/ubuntu/workspace/week2/Task1/index.php on line 98
+[25-Jul-2018 18:48:33 Australia/Brisbane] PHP Fatal error:  Call to undefined function preGen() in /home/ubuntu/workspace/week2/Task1/index.php on line 180
+[25-Jul-2018 18:48:33 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 18:48:33 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task1/index.php:0
+[25-Jul-2018 18:50:37 Australia/Brisbane] PHP Fatal error:  Call to undefined function preGen() in /home/ubuntu/workspace/week2/Task1/index.php on line 180
+[25-Jul-2018 18:50:37 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 18:50:37 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task1/index.php:0
+[25-Jul-2018 08:51:17 UTC] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /home/ubuntu/workspace/week2/Task1/index.php on line 98
+[25-Jul-2018 08:56:39 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/ubuntu/workspace/week2/Task1/index.php on line 127
+[25-Jul-2018 19:46:08 Australia/Brisbane] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/week2/Task2/index.php on line 105
+[25-Jul-2018 19:46:08 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 19:46:08 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 19:46:53 Australia/Brisbane] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/week2/Task2/index.php on line 105
+[25-Jul-2018 19:46:53 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 19:46:53 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 19:49:54 Australia/Brisbane] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/week2/Task2/index.php on line 105
+[25-Jul-2018 19:49:54 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 19:49:54 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 19:50:32 Australia/Brisbane] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/week2/Task2/index.php on line 105
+[25-Jul-2018 19:50:32 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 19:50:32 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 19:56:03 Australia/Brisbane] PHP Fatal error:  Cannot use object of type Post as array in /home/ubuntu/workspace/week2/Task2/index.php on line 107
+[25-Jul-2018 19:56:03 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 19:56:03 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 19:59:39 Australia/Brisbane] PHP Fatal error:  Cannot use object of type wp\Post as array in /home/ubuntu/workspace/week2/Task2/index.php on line 107
+[25-Jul-2018 19:59:39 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 19:59:39 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 20:02:14 Australia/Brisbane] PHP Fatal error:  Cannot use object of type wp\Post as array in /home/ubuntu/workspace/week2/Task2/index.php on line 107
+[25-Jul-2018 20:02:14 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 20:02:14 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 20:07:01 Australia/Brisbane] PHP Fatal error:  Cannot use object of type wp\Post as array in /home/ubuntu/workspace/week2/Task2/index.php on line 107
+[25-Jul-2018 20:07:01 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 20:07:01 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 20:07:39 Australia/Brisbane] PHP Fatal error:  Call to undefined method wp\PostSeeder::addComment() in /home/ubuntu/workspace/week2/Task2/index.php on line 62
+[25-Jul-2018 20:07:39 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 20:07:39 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 20:09:23 Australia/Brisbane] PHP Fatal error:  Cannot use object of type wp\Post as array in /home/ubuntu/workspace/week2/Task2/index.php on line 112
+[25-Jul-2018 20:09:23 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 20:09:23 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 20:09:49 Australia/Brisbane] PHP Fatal error:  Call to a member function addComment() on a non-object in /home/ubuntu/workspace/week2/Task2/index.php on line 63
+[25-Jul-2018 20:09:49 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 20:09:49 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 20:10:21 Australia/Brisbane] PHP Fatal error:  Call to a member function addComment() on a non-object in /home/ubuntu/workspace/week2/Task2/index.php on line 63
+[25-Jul-2018 20:10:21 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 20:10:21 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 20:10:25 Australia/Brisbane] PHP Fatal error:  Call to a member function addComment() on a non-object in /home/ubuntu/workspace/week2/Task2/index.php on line 63
+[25-Jul-2018 20:10:25 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 20:10:25 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 20:11:11 Australia/Brisbane] PHP Fatal error:  Call to a member function addComment() on a non-object in /home/ubuntu/workspace/week2/Task2/index.php on line 63
+[25-Jul-2018 20:11:11 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 20:11:11 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 20:12:05 Australia/Brisbane] PHP Fatal error:  Cannot use object of type wp\Post as array in /home/ubuntu/workspace/week2/Task2/index.php on line 112
+[25-Jul-2018 20:12:05 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 20:12:05 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 20:13:09 Australia/Brisbane] PHP Fatal error:  Call to undefined function addComment() in /home/ubuntu/workspace/week2/Task2/index.php on line 63
+[25-Jul-2018 20:13:09 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 20:13:09 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 20:13:56 Australia/Brisbane] PHP Fatal error:  Call to a member function addComment() on a non-object in /home/ubuntu/workspace/week2/Task2/index.php on line 63
+[25-Jul-2018 20:13:56 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 20:13:56 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 20:15:00 Australia/Brisbane] PHP Fatal error:  Call to a member function addComment() on a non-object in /home/ubuntu/workspace/week2/Task2/index.php on line 63
+[25-Jul-2018 20:15:00 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 20:15:00 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 20:15:02 Australia/Brisbane] PHP Fatal error:  Call to a member function addComment() on a non-object in /home/ubuntu/workspace/week2/Task2/index.php on line 63
+[25-Jul-2018 20:15:02 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 20:15:02 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 20:15:26 Australia/Brisbane] PHP Fatal error:  Call to a member function addComment() on a non-object in /home/ubuntu/workspace/week2/Task2/index.php on line 63
+[25-Jul-2018 20:15:26 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 20:15:26 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 20:16:24 Australia/Brisbane] PHP Fatal error:  Call to a member function addComment() on a non-object in /home/ubuntu/workspace/week2/Task2/index.php on line 63
+[25-Jul-2018 20:16:24 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 20:16:24 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 20:16:54 Australia/Brisbane] PHP Fatal error:  Call to a member function addComment() on a non-object in /home/ubuntu/workspace/week2/Task2/index.php on line 63
+[25-Jul-2018 20:16:54 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 20:16:54 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 20:16:56 Australia/Brisbane] PHP Fatal error:  Call to a member function addComment() on a non-object in /home/ubuntu/workspace/week2/Task2/index.php on line 63
+[25-Jul-2018 20:16:56 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 20:16:56 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 20:17:14 Australia/Brisbane] PHP Fatal error:  Cannot use object of type wp\Post as array in /home/ubuntu/workspace/week2/Task2/index.php on line 111
+[25-Jul-2018 20:17:14 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 20:17:14 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 20:17:59 Australia/Brisbane] PHP Fatal error:  Cannot use object of type wp\Post as array in /home/ubuntu/workspace/week2/Task2/index.php on line 111
+[25-Jul-2018 20:17:59 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 20:17:59 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 20:18:04 Australia/Brisbane] PHP Fatal error:  Cannot use object of type wp\Post as array in /home/ubuntu/workspace/week2/Task2/index.php on line 111
+[25-Jul-2018 20:18:04 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 20:18:04 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 20:18:23 Australia/Brisbane] PHP Fatal error:  Cannot use object of type Post as array in /home/ubuntu/workspace/week2/Task2/index.php on line 111
+[25-Jul-2018 20:18:23 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 20:18:23 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 20:18:30 Australia/Brisbane] PHP Fatal error:  Cannot use object of type Post as array in /home/ubuntu/workspace/week2/Task2/index.php on line 111
+[25-Jul-2018 20:18:30 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 20:18:30 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 20:19:06 Australia/Brisbane] PHP Fatal error:  Cannot use object of type Post as array in /home/ubuntu/workspace/week2/Task2/index.php on line 111
+[25-Jul-2018 20:19:06 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 20:19:06 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 20:19:27 Australia/Brisbane] PHP Fatal error:  Cannot use object of type Post as array in /home/ubuntu/workspace/week2/Task2/index.php on line 111
+[25-Jul-2018 20:19:27 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 20:19:27 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 20:19:41 Australia/Brisbane] PHP Fatal error:  Call to a member function addComment() on a non-object in /home/ubuntu/workspace/week2/Task2/index.php on line 63
+[25-Jul-2018 20:19:41 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 20:19:41 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 20:21:09 Australia/Brisbane] PHP Fatal error:  Cannot use object of type Post as array in /home/ubuntu/workspace/week2/Task2/index.php on line 111
+[25-Jul-2018 20:21:09 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 20:21:09 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 20:21:55 Australia/Brisbane] PHP Fatal error:  Cannot use object of type Post as array in /home/ubuntu/workspace/week2/Task2/index.php on line 112
+[25-Jul-2018 20:21:55 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 20:21:55 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 20:22:26 Australia/Brisbane] PHP Fatal error:  Cannot use object of type Post as array in /home/ubuntu/workspace/week2/Task2/index.php on line 112
+[25-Jul-2018 20:22:26 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 20:22:26 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 20:22:44 Australia/Brisbane] PHP Fatal error:  Cannot use object of type Post as array in /home/ubuntu/workspace/week2/Task2/index.php on line 112
+[25-Jul-2018 20:22:44 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 20:22:44 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 20:23:21 Australia/Brisbane] PHP Fatal error:  Cannot use object of type Post as array in /home/ubuntu/workspace/week2/Task2/index.php on line 112
+[25-Jul-2018 20:23:21 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 20:23:21 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 20:24:50 Australia/Brisbane] PHP Fatal error:  Cannot use object of type Post as array in /home/ubuntu/workspace/week2/Task2/index.php on line 112
+[25-Jul-2018 20:24:50 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 20:24:50 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 20:25:14 Australia/Brisbane] PHP Fatal error:  Call to a member function getUser() on a non-object in /home/ubuntu/workspace/week2/Task2/index.php on line 114
+[25-Jul-2018 20:25:14 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 20:25:14 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 20:25:17 Australia/Brisbane] PHP Fatal error:  Call to a member function getUser() on a non-object in /home/ubuntu/workspace/week2/Task2/index.php on line 114
+[25-Jul-2018 20:25:17 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 20:25:17 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 10:26:53 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/ubuntu/workspace/week2/Task2/index.php on line 112
+[25-Jul-2018 20:30:48 Australia/Brisbane] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/week2/Task2/index.php on line 123
+[25-Jul-2018 20:30:48 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 20:30:48 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 20:30:48 Australia/Brisbane] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/week2/Task2/index.php on line 123
+[25-Jul-2018 20:30:48 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 20:30:48 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 20:31:29 Australia/Brisbane] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/week2/Task2/index.php on line 123
+[25-Jul-2018 20:31:29 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 20:31:29 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 20:31:29 Australia/Brisbane] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/week2/Task2/index.php on line 123
+[25-Jul-2018 20:31:29 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 20:31:29 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 20:32:59 Australia/Brisbane] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/week2/Task2/index.php on line 125
+[25-Jul-2018 20:32:59 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 20:32:59 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 20:32:59 Australia/Brisbane] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/week2/Task2/index.php on line 125
+[25-Jul-2018 20:32:59 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 20:32:59 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 20:33:03 Australia/Brisbane] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/week2/Task2/index.php on line 125
+[25-Jul-2018 20:33:03 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 20:33:03 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 20:33:03 Australia/Brisbane] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/week2/Task2/index.php on line 125
+[25-Jul-2018 20:33:03 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 20:33:03 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 20:33:26 Australia/Brisbane] PHP Fatal error:  Call to undefined method Post::getComment() in /home/ubuntu/workspace/week2/Task2/index.php on line 123
+[25-Jul-2018 20:33:26 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 20:33:26 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 10:37:16 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/ubuntu/workspace/week2/Task2/index.php on line 135
+[25-Jul-2018 10:37:20 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/ubuntu/workspace/week2/Task2/index.php on line 135
+[25-Jul-2018 10:38:27 UTC] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH), expecting ',' or ';' in /home/ubuntu/workspace/week2/Task2/index.php on line 131
+[25-Jul-2018 20:41:11 Australia/Brisbane] PHP Fatal error:  Call to undefined method Post::addComment() in /home/ubuntu/workspace/week2/Task2/index.php on line 63
+[25-Jul-2018 20:41:11 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 20:41:11 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 20:41:27 Australia/Brisbane] PHP Fatal error:  Call to undefined method Post::addComment() in /home/ubuntu/workspace/week2/Task2/index.php on line 63
+[25-Jul-2018 20:41:27 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 20:41:27 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 20:42:32 Australia/Brisbane] PHP Fatal error:  Call to undefined function addComment() in /home/ubuntu/workspace/week2/Task2/index.php on line 63
+[25-Jul-2018 20:42:32 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 20:42:32 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 20:44:55 Australia/Brisbane] PHP Fatal error:  Class 'PostSeeder' not found in /home/ubuntu/workspace/week2/Task2/index.php on line 61
+[25-Jul-2018 20:44:55 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 20:44:55 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 20:46:11 Australia/Brisbane] PHP Fatal error:  Class 'PostSeeder' not found in /home/ubuntu/workspace/week2/Task2/index.php on line 61
+[25-Jul-2018 20:46:11 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 20:46:11 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 20:47:22 Australia/Brisbane] PHP Fatal error:  Class 'PostSeeder' not found in /home/ubuntu/workspace/week2/Task2/index.php on line 61
+[25-Jul-2018 20:47:22 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 20:47:22 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 20:47:38 Australia/Brisbane] PHP Fatal error:  Class 'PostSeeder' not found in /home/ubuntu/workspace/week2/Task2/index.php on line 61
+[25-Jul-2018 20:47:38 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 20:47:38 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 20:48:00 Australia/Brisbane] PHP Fatal error:  Class 'PostSeeder' not found in /home/ubuntu/workspace/week2/Task2/index.php on line 61
+[25-Jul-2018 20:48:00 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 20:48:00 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 20:48:20 Australia/Brisbane] PHP Fatal error:  Class 'PostSeeder' not found in /home/ubuntu/workspace/week2/Task2/index.php on line 61
+[25-Jul-2018 20:48:20 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 20:48:20 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 20:48:47 Australia/Brisbane] PHP Fatal error:  Class 'PostSeeder' not found in /home/ubuntu/workspace/week2/Task2/index.php on line 61
+[25-Jul-2018 20:48:47 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 20:48:47 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 20:48:58 Australia/Brisbane] PHP Fatal error:  Class 'PostSeeder' not found in /home/ubuntu/workspace/week2/Task2/index.php on line 61
+[25-Jul-2018 20:48:58 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 20:48:58 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 20:49:03 Australia/Brisbane] PHP Fatal error:  Class 'PostSeeder' not found in /home/ubuntu/workspace/week2/Task2/index.php on line 61
+[25-Jul-2018 20:49:03 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 20:49:03 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 20:49:06 Australia/Brisbane] PHP Fatal error:  Class 'PostSeeder' not found in /home/ubuntu/workspace/week2/Task2/index.php on line 61
+[25-Jul-2018 20:49:06 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 20:49:06 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 20:49:10 Australia/Brisbane] PHP Fatal error:  Class 'PostSeeder' not found in /home/ubuntu/workspace/week2/Task2/index.php on line 61
+[25-Jul-2018 20:49:10 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 20:49:10 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 20:49:30 Australia/Brisbane] PHP Fatal error:  Class 'PostSeeder' not found in /home/ubuntu/workspace/week2/Task2/index.php on line 61
+[25-Jul-2018 20:49:30 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 20:49:30 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 20:49:33 Australia/Brisbane] PHP Fatal error:  Class 'PostSeeder' not found in /home/ubuntu/workspace/week2/Task2/index.php on line 61
+[25-Jul-2018 20:49:33 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 20:49:33 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 20:49:46 Australia/Brisbane] PHP Fatal error:  Call to undefined method Post::addComment() in /home/ubuntu/workspace/week2/Task2/index.php on line 63
+[25-Jul-2018 20:49:46 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 20:49:46 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 20:50:13 Australia/Brisbane] PHP Fatal error:  Class 'PostSeeder' not found in /home/ubuntu/workspace/week2/Task2/index.php on line 61
+[25-Jul-2018 20:50:13 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 20:50:13 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 20:50:28 Australia/Brisbane] PHP Fatal error:  Class 'PostSeeder' not found in /home/ubuntu/workspace/week2/Task2/index.php on line 61
+[25-Jul-2018 20:50:28 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 20:50:28 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 20:50:50 Australia/Brisbane] PHP Fatal error:  Class 'PostSeeder' not found in /home/ubuntu/workspace/week2/Task2/index.php on line 61
+[25-Jul-2018 20:50:50 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 20:50:50 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 20:51:03 Australia/Brisbane] PHP Fatal error:  Call to undefined method Post::addComment() in /home/ubuntu/workspace/week2/Task2/index.php on line 63
+[25-Jul-2018 20:51:03 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 20:51:03 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 20:51:49 Australia/Brisbane] PHP Fatal error:  Class 'Comment' not found in /home/ubuntu/workspace/week2/Task2/index.php on line 62
+[25-Jul-2018 20:51:49 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 20:51:49 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 20:52:03 Australia/Brisbane] PHP Warning:  Missing argument 1 for Comments::addComment(), called in /home/ubuntu/workspace/week2/Task2/index.php on line 62 and defined in /home/ubuntu/workspace/week2/Task2/Post.php on line 38
+[25-Jul-2018 20:52:03 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 20:52:03 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 20:52:03 Australia/Brisbane] PHP   2. Comments::addComment() /home/ubuntu/workspace/week2/Task2/index.php:62
+[25-Jul-2018 20:52:03 Australia/Brisbane] PHP Warning:  Missing argument 2 for Comments::addComment(), called in /home/ubuntu/workspace/week2/Task2/index.php on line 62 and defined in /home/ubuntu/workspace/week2/Task2/Post.php on line 38
+[25-Jul-2018 20:52:03 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 20:52:03 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 20:52:03 Australia/Brisbane] PHP   2. Comments::addComment() /home/ubuntu/workspace/week2/Task2/index.php:62
+[25-Jul-2018 20:52:03 Australia/Brisbane] PHP Fatal error:  Using $this when not in object context in /home/ubuntu/workspace/week2/Task2/Post.php on line 39
+[25-Jul-2018 20:52:03 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 20:52:03 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 20:52:03 Australia/Brisbane] PHP   2. Comments::addComment() /home/ubuntu/workspace/week2/Task2/index.php:62
+[25-Jul-2018 20:52:33 Australia/Brisbane] PHP Warning:  Missing argument 1 for Comments::addComment(), called in /home/ubuntu/workspace/week2/Task2/index.php on line 62 and defined in /home/ubuntu/workspace/week2/Task2/Post.php on line 38
+[25-Jul-2018 20:52:33 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 20:52:33 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 20:52:33 Australia/Brisbane] PHP   2. Comments::addComment() /home/ubuntu/workspace/week2/Task2/index.php:62
+[25-Jul-2018 20:52:33 Australia/Brisbane] PHP Warning:  Missing argument 2 for Comments::addComment(), called in /home/ubuntu/workspace/week2/Task2/index.php on line 62 and defined in /home/ubuntu/workspace/week2/Task2/Post.php on line 38
+[25-Jul-2018 20:52:33 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 20:52:33 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 20:52:33 Australia/Brisbane] PHP   2. Comments::addComment() /home/ubuntu/workspace/week2/Task2/index.php:62
+[25-Jul-2018 20:52:33 Australia/Brisbane] PHP Fatal error:  Using $this when not in object context in /home/ubuntu/workspace/week2/Task2/Post.php on line 39
+[25-Jul-2018 20:52:33 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 20:52:33 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 20:52:33 Australia/Brisbane] PHP   2. Comments::addComment() /home/ubuntu/workspace/week2/Task2/index.php:62
+[25-Jul-2018 20:52:47 Australia/Brisbane] PHP Fatal error:  Using $this when not in object context in /home/ubuntu/workspace/week2/Task2/Post.php on line 39
+[25-Jul-2018 20:52:47 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 20:52:47 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 20:52:47 Australia/Brisbane] PHP   2. Comments::addComment() /home/ubuntu/workspace/week2/Task2/index.php:63
+[25-Jul-2018 20:53:24 Australia/Brisbane] PHP Fatal error:  Using $this when not in object context in /home/ubuntu/workspace/week2/Task2/Post.php on line 42
+[25-Jul-2018 20:53:24 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 20:53:24 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 20:53:24 Australia/Brisbane] PHP   2. Comments::addComment() /home/ubuntu/workspace/week2/Task2/index.php:63
+[25-Jul-2018 20:53:51 Australia/Brisbane] PHP Fatal error:  Using $this when not in object context in /home/ubuntu/workspace/week2/Task2/Post.php on line 44
+[25-Jul-2018 20:53:51 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 20:53:51 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 20:53:51 Australia/Brisbane] PHP   2. Comments::addComment() /home/ubuntu/workspace/week2/Task2/index.php:63
+[25-Jul-2018 20:55:48 Australia/Brisbane] PHP Fatal error:  Using $this when not in object context in /home/ubuntu/workspace/week2/Task2/Post.php on line 46
+[25-Jul-2018 20:55:48 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 20:55:48 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 20:55:48 Australia/Brisbane] PHP   2. Comments::addComment() /home/ubuntu/workspace/week2/Task2/index.php:63
+[25-Jul-2018 20:58:07 Australia/Brisbane] PHP Fatal error:  Call to undefined method Post::getComments() in /home/ubuntu/workspace/week2/Task2/index.php on line 128
+[25-Jul-2018 20:58:07 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 20:58:07 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 20:58:53 Australia/Brisbane] PHP Fatal error:  Call to undefined function addComment() in /home/ubuntu/workspace/week2/Task2/index.php on line 63
+[25-Jul-2018 20:58:53 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 20:58:53 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 20:59:55 Australia/Brisbane] PHP Fatal error:  Call to undefined method Post::getComments() in /home/ubuntu/workspace/week2/Task2/index.php on line 128
+[25-Jul-2018 20:59:55 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 20:59:55 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 21:00:16 Australia/Brisbane] PHP Fatal error:  Call to undefined method Post::getComments() in /home/ubuntu/workspace/week2/Task2/index.php on line 129
+[25-Jul-2018 21:00:16 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 21:00:16 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 21:01:44 Australia/Brisbane] PHP Fatal error:  Call to undefined method Post::getComments() in /home/ubuntu/workspace/week2/Task2/index.php on line 129
+[25-Jul-2018 21:01:44 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 21:01:44 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 21:02:16 Australia/Brisbane] PHP Fatal error:  Call to undefined method Comments::getUser() in /home/ubuntu/workspace/week2/Task2/index.php on line 116
+[25-Jul-2018 21:02:16 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 21:02:16 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 21:03:19 Australia/Brisbane] PHP Warning:  Missing argument 1 for Comments::__construct(), called in /home/ubuntu/workspace/week2/Task2/index.php on line 64 and defined in /home/ubuntu/workspace/week2/Task2/Post.php on line 41
+[25-Jul-2018 21:03:19 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 21:03:19 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 21:03:19 Australia/Brisbane] PHP   2. Comments->__construct() /home/ubuntu/workspace/week2/Task2/index.php:64
+[25-Jul-2018 21:03:19 Australia/Brisbane] PHP Warning:  Missing argument 2 for Comments::__construct(), called in /home/ubuntu/workspace/week2/Task2/index.php on line 64 and defined in /home/ubuntu/workspace/week2/Task2/Post.php on line 41
+[25-Jul-2018 21:03:19 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 21:03:19 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 21:03:19 Australia/Brisbane] PHP   2. Comments->__construct() /home/ubuntu/workspace/week2/Task2/index.php:64
+[25-Jul-2018 21:03:19 Australia/Brisbane] PHP Fatal error:  Call to undefined function addComment() in /home/ubuntu/workspace/week2/Task2/index.php on line 64
+[25-Jul-2018 21:03:19 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 21:03:19 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 21:04:25 Australia/Brisbane] PHP Fatal error:  Call to undefined method Comments::getUser() in /home/ubuntu/workspace/week2/Task2/index.php on line 116
+[25-Jul-2018 21:04:25 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 21:04:25 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 11:04:55 UTC] PHP Parse error:  syntax error, unexpected 'addComment' (T_STRING), expecting variable (T_VARIABLE) or '$' in /home/ubuntu/workspace/week2/Task2/index.php on line 64
+[25-Jul-2018 11:05:36 UTC] PHP Parse error:  syntax error, unexpected 'addComment' (T_STRING), expecting variable (T_VARIABLE) or '$' in /home/ubuntu/workspace/week2/Task2/index.php on line 64
+[25-Jul-2018 11:06:19 UTC] PHP Parse error:  syntax error, unexpected 'addComment' (T_STRING), expecting variable (T_VARIABLE) or '$' in /home/ubuntu/workspace/week2/Task2/index.php on line 64
+[25-Jul-2018 21:09:23 Australia/Brisbane] PHP Fatal error:  Class 'PostSeeder' not found in /home/ubuntu/workspace/week2/Task2/index.php on line 61
+[25-Jul-2018 21:09:23 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 21:09:23 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 21:09:40 Australia/Brisbane] PHP Fatal error:  Cannot redeclare class Post in /home/ubuntu/workspace/week2/Task2/Post.php on line 3
+[25-Jul-2018 21:09:40 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 21:09:40 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 21:09:40 Australia/Brisbane] PHP   2. include() /home/ubuntu/workspace/week2/Task2/index.php:60
+[25-Jul-2018 21:15:16 Australia/Brisbane] PHP Fatal error:  Call to a member function addComment() on a non-object in /home/ubuntu/workspace/week2/Task2/index.php on line 67
+[25-Jul-2018 21:15:16 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 21:15:16 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 21:16:02 Australia/Brisbane] PHP Fatal error:  Call to undefined function addComment() in /home/ubuntu/workspace/week2/Task2/index.php on line 66
+[25-Jul-2018 21:16:02 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 21:16:02 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 21:16:27 Australia/Brisbane] PHP Fatal error:  Call to undefined function addComment() in /home/ubuntu/workspace/week2/Task2/index.php on line 66
+[25-Jul-2018 21:16:27 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 21:16:27 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 11:16:37 UTC] PHP Parse error:  syntax error, unexpected '::' (T_PAAMAYIM_NEKUDOTAYIM) in /home/ubuntu/workspace/week2/Task2/index.php on line 66
+[25-Jul-2018 21:16:50 Australia/Brisbane] PHP Fatal error:  Call to a member function addComment() on a non-object in /home/ubuntu/workspace/week2/Task2/index.php on line 68
+[25-Jul-2018 21:16:50 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 21:16:50 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 21:17:36 Australia/Brisbane] PHP Fatal error:  Call to undefined method Post::addComment() in /home/ubuntu/workspace/week2/Task2/index.php on line 66
+[25-Jul-2018 21:17:36 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 21:17:36 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 21:18:26 Australia/Brisbane] PHP Fatal error:  Call to undefined method Post::addComment() in /home/ubuntu/workspace/week2/Task2/index.php on line 66
+[25-Jul-2018 21:18:26 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 21:18:26 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 21:19:04 Australia/Brisbane] PHP Warning:  Missing argument 1 for Comments::addComment(), called in /home/ubuntu/workspace/week2/Task2/index.php on line 64 and defined in /home/ubuntu/workspace/week2/Task2/Comments.php on line 11
+[25-Jul-2018 21:19:04 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 21:19:04 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 21:19:04 Australia/Brisbane] PHP   2. Comments::addComment() /home/ubuntu/workspace/week2/Task2/index.php:64
+[25-Jul-2018 21:19:04 Australia/Brisbane] PHP Warning:  Missing argument 2 for Comments::addComment(), called in /home/ubuntu/workspace/week2/Task2/index.php on line 64 and defined in /home/ubuntu/workspace/week2/Task2/Comments.php on line 11
+[25-Jul-2018 21:19:04 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 21:19:04 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 21:19:04 Australia/Brisbane] PHP   2. Comments::addComment() /home/ubuntu/workspace/week2/Task2/index.php:64
+[25-Jul-2018 21:19:04 Australia/Brisbane] PHP Fatal error:  Call to undefined method Post::addComment() in /home/ubuntu/workspace/week2/Task2/index.php on line 66
+[25-Jul-2018 21:19:04 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 21:19:04 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 21:19:22 Australia/Brisbane] PHP Fatal error:  Call to undefined function addComment() in /home/ubuntu/workspace/week2/Task2/index.php on line 66
+[25-Jul-2018 21:19:22 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 21:19:22 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 21:20:01 Australia/Brisbane] PHP Fatal error:  Call to undefined function addComment() in /home/ubuntu/workspace/week2/Task2/index.php on line 66
+[25-Jul-2018 21:20:01 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 21:20:01 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 21:20:26 Australia/Brisbane] PHP Fatal error:  Call to a member function addComment() on a non-object in /home/ubuntu/workspace/week2/Task2/index.php on line 68
+[25-Jul-2018 21:20:26 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 21:20:26 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 21:29:16 Australia/Brisbane] PHP Warning:  Missing argument 4 for Post::__construct(), called in /home/ubuntu/workspace/week2/Task2/PostSeeder.php on line 7 and defined in /home/ubuntu/workspace/week2/Task2/Post.php on line 10
+[25-Jul-2018 21:29:16 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 21:29:16 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 21:29:16 Australia/Brisbane] PHP   2. PostSeeder::seed() /home/ubuntu/workspace/week2/Task2/index.php:63
+[25-Jul-2018 21:29:16 Australia/Brisbane] PHP   3. Post->__construct() /home/ubuntu/workspace/week2/Task2/PostSeeder.php:7
+[25-Jul-2018 21:29:16 Australia/Brisbane] PHP Warning:  Missing argument 4 for Post::__construct(), called in /home/ubuntu/workspace/week2/Task2/PostSeeder.php on line 8 and defined in /home/ubuntu/workspace/week2/Task2/Post.php on line 10
+[25-Jul-2018 21:29:16 Australia/Brisbane] PHP Stack trace:
+[25-Jul-2018 21:29:16 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[25-Jul-2018 21:29:16 Australia/Brisbane] PHP   2. PostSeeder::seed() /home/ubuntu/workspace/week2/Task2/index.php:63
+[25-Jul-2018 21:29:16 Australia/Brisbane] PHP   3. Post->__construct() /home/ubuntu/workspace/week2/Task2/PostSeeder.php:8
+[26-Jul-2018 07:55:47 Australia/Brisbane] PHP Warning:  include(Comment.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/week2/Task2/classes/PostSeeder.php on line 3
+[26-Jul-2018 07:55:47 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 07:55:47 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[26-Jul-2018 07:55:47 Australia/Brisbane] PHP   2. include() /home/ubuntu/workspace/week2/Task2/index.php:60
+[26-Jul-2018 07:55:47 Australia/Brisbane] PHP Warning:  include(): Failed opening 'Comment.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/week2/Task2/classes/PostSeeder.php on line 3
+[26-Jul-2018 07:55:47 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 07:55:47 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[26-Jul-2018 07:55:47 Australia/Brisbane] PHP   2. include() /home/ubuntu/workspace/week2/Task2/index.php:60
+[26-Jul-2018 07:55:47 Australia/Brisbane] PHP Fatal error:  Call to undefined method Post::addComment() in /home/ubuntu/workspace/week2/Task2/index.php on line 65
+[26-Jul-2018 07:55:47 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 07:55:47 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[26-Jul-2018 07:56:52 Australia/Brisbane] PHP Fatal error:  Call to undefined method Post::addComment() in /home/ubuntu/workspace/week2/Task3/index.php on line 65
+[26-Jul-2018 07:56:52 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 07:56:52 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 07:58:25 Australia/Brisbane] PHP Fatal error:  Call to undefined method Post::addComment() in /home/ubuntu/workspace/week2/Task3/index.php on line 65
+[26-Jul-2018 07:58:25 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 07:58:25 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 08:01:51 Australia/Brisbane] PHP Fatal error:  Post cannot use Comment - it is not a trait in /home/ubuntu/workspace/week2/Task3/classes/Post.php on line 6
+[26-Jul-2018 08:01:51 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 08:01:51 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 08:01:51 Australia/Brisbane] PHP   2. include() /home/ubuntu/workspace/week2/Task3/index.php:60
+[26-Jul-2018 08:01:51 Australia/Brisbane] PHP   3. include() /home/ubuntu/workspace/week2/Task3/classes/PostSeeder.php:2
+[26-Jul-2018 08:02:21 Australia/Brisbane] PHP Warning:  The use statement with non-compound name 'Comment' has no effect in /home/ubuntu/workspace/week2/Task3/classes/Post.php on line 4
+[26-Jul-2018 08:02:21 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 08:02:21 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 08:02:21 Australia/Brisbane] PHP   2. include() /home/ubuntu/workspace/week2/Task3/index.php:60
+[26-Jul-2018 08:02:43 Australia/Brisbane] PHP Parse error:  syntax error, unexpected 'include' (T_INCLUDE), expecting function (T_FUNCTION) in /home/ubuntu/workspace/week2/Task3/classes/Post.php on line 4
+[26-Jul-2018 08:02:43 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 08:02:43 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 08:02:43 Australia/Brisbane] PHP   2. include() /home/ubuntu/workspace/week2/Task3/index.php:60
+[26-Jul-2018 08:03:14 Australia/Brisbane] PHP Parse error:  syntax error, unexpected '::' (T_PAAMAYIM_NEKUDOTAYIM), expecting ',' or ';' or '{' in /home/ubuntu/workspace/week2/Task3/classes/Post.php on line 5
+[26-Jul-2018 08:03:14 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 08:03:14 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 08:03:14 Australia/Brisbane] PHP   2. include() /home/ubuntu/workspace/week2/Task3/index.php:60
+[26-Jul-2018 08:03:25 Australia/Brisbane] PHP Fatal error:  Post cannot use Comment - it is not a trait in /home/ubuntu/workspace/week2/Task3/classes/Post.php on line 5
+[26-Jul-2018 08:03:25 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 08:03:25 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 08:03:25 Australia/Brisbane] PHP   2. include() /home/ubuntu/workspace/week2/Task3/index.php:60
+[26-Jul-2018 08:03:25 Australia/Brisbane] PHP   3. include() /home/ubuntu/workspace/week2/Task3/classes/PostSeeder.php:2
+[26-Jul-2018 08:06:03 Australia/Brisbane] PHP Warning:  The use statement with non-compound name 'Comment' has no effect in /home/ubuntu/workspace/week2/Task3/classes/Post.php on line 3
+[26-Jul-2018 08:06:03 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 08:06:03 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 08:06:03 Australia/Brisbane] PHP   2. include() /home/ubuntu/workspace/week2/Task3/index.php:60
+[26-Jul-2018 08:06:03 Australia/Brisbane] PHP Fatal error:  Call to undefined function addComment() in /home/ubuntu/workspace/week2/Task3/classes/Post.php on line 44
+[26-Jul-2018 08:06:03 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 08:06:03 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 08:06:03 Australia/Brisbane] PHP   2. Post->addComment() /home/ubuntu/workspace/week2/Task3/index.php:65
+[26-Jul-2018 08:06:39 Australia/Brisbane] PHP Warning:  The use statement with non-compound name 'Comment' has no effect in /home/ubuntu/workspace/week2/Task3/classes/Post.php on line 3
+[26-Jul-2018 08:06:39 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 08:06:39 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 08:06:39 Australia/Brisbane] PHP   2. include() /home/ubuntu/workspace/week2/Task3/index.php:60
+[26-Jul-2018 08:06:39 Australia/Brisbane] PHP Fatal error:  Call to undefined function addComment() in /home/ubuntu/workspace/week2/Task3/classes/Post.php on line 45
+[26-Jul-2018 08:06:39 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 08:06:39 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 08:06:39 Australia/Brisbane] PHP   2. Post->addComment() /home/ubuntu/workspace/week2/Task3/index.php:65
+[26-Jul-2018 08:06:54 Australia/Brisbane] PHP Fatal error:  Call to undefined function addComment() in /home/ubuntu/workspace/week2/Task3/classes/Post.php on line 44
+[26-Jul-2018 08:06:54 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 08:06:54 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 08:06:54 Australia/Brisbane] PHP   2. Post->addComment() /home/ubuntu/workspace/week2/Task3/index.php:65
+[26-Jul-2018 08:07:50 Australia/Brisbane] PHP Fatal error:  Call to undefined function Comment() in /home/ubuntu/workspace/week2/Task3/classes/Post.php on line 44
+[26-Jul-2018 08:07:50 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 08:07:50 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 08:07:50 Australia/Brisbane] PHP   2. Post->addComment() /home/ubuntu/workspace/week2/Task3/index.php:65
+[26-Jul-2018 08:08:26 Australia/Brisbane] PHP Fatal error:  Call to undefined function Comment() in /home/ubuntu/workspace/week2/Task3/classes/Post.php on line 44
+[26-Jul-2018 08:08:26 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 08:08:26 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 08:08:26 Australia/Brisbane] PHP   2. Post->addComment() /home/ubuntu/workspace/week2/Task3/index.php:65
+[26-Jul-2018 08:09:27 Australia/Brisbane] PHP Warning:  Missing argument 1 for Comment::__construct(), called in /home/ubuntu/workspace/week2/Task3/classes/Post.php on line 44 and defined in /home/ubuntu/workspace/week2/Task3/classes/Comment.php on line 9
+[26-Jul-2018 08:09:27 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 08:09:27 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 08:09:27 Australia/Brisbane] PHP   2. Post->addComment() /home/ubuntu/workspace/week2/Task3/index.php:65
+[26-Jul-2018 08:09:27 Australia/Brisbane] PHP   3. Comment->__construct() /home/ubuntu/workspace/week2/Task3/classes/Post.php:44
+[26-Jul-2018 08:09:27 Australia/Brisbane] PHP Warning:  Missing argument 2 for Comment::__construct(), called in /home/ubuntu/workspace/week2/Task3/classes/Post.php on line 44 and defined in /home/ubuntu/workspace/week2/Task3/classes/Comment.php on line 9
+[26-Jul-2018 08:09:27 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 08:09:27 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 08:09:27 Australia/Brisbane] PHP   2. Post->addComment() /home/ubuntu/workspace/week2/Task3/index.php:65
+[26-Jul-2018 08:09:27 Australia/Brisbane] PHP   3. Comment->__construct() /home/ubuntu/workspace/week2/Task3/classes/Post.php:44
+[26-Jul-2018 08:09:27 Australia/Brisbane] PHP Fatal error:  Call to undefined function addComment() in /home/ubuntu/workspace/week2/Task3/classes/Post.php on line 44
+[26-Jul-2018 08:09:27 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 08:09:27 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 08:09:27 Australia/Brisbane] PHP   2. Post->addComment() /home/ubuntu/workspace/week2/Task3/index.php:65
+[26-Jul-2018 08:10:56 Australia/Brisbane] PHP Warning:  Missing argument 1 for Comment::__construct(), called in /home/ubuntu/workspace/week2/Task3/classes/Post.php on line 44 and defined in /home/ubuntu/workspace/week2/Task3/classes/Comment.php on line 9
+[26-Jul-2018 08:10:56 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 08:10:56 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 08:10:56 Australia/Brisbane] PHP   2. Post->addComment() /home/ubuntu/workspace/week2/Task3/index.php:65
+[26-Jul-2018 08:10:56 Australia/Brisbane] PHP   3. Comment->__construct() /home/ubuntu/workspace/week2/Task3/classes/Post.php:44
+[26-Jul-2018 08:10:56 Australia/Brisbane] PHP Warning:  Missing argument 2 for Comment::__construct(), called in /home/ubuntu/workspace/week2/Task3/classes/Post.php on line 44 and defined in /home/ubuntu/workspace/week2/Task3/classes/Comment.php on line 9
+[26-Jul-2018 08:10:56 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 08:10:56 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 08:10:56 Australia/Brisbane] PHP   2. Post->addComment() /home/ubuntu/workspace/week2/Task3/index.php:65
+[26-Jul-2018 08:10:56 Australia/Brisbane] PHP   3. Comment->__construct() /home/ubuntu/workspace/week2/Task3/classes/Post.php:44
+[26-Jul-2018 08:10:56 Australia/Brisbane] PHP Fatal error:  Call to undefined function addComment() in /home/ubuntu/workspace/week2/Task3/classes/Post.php on line 44
+[26-Jul-2018 08:10:56 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 08:10:56 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 08:10:56 Australia/Brisbane] PHP   2. Post->addComment() /home/ubuntu/workspace/week2/Task3/index.php:65
+[26-Jul-2018 08:11:37 Australia/Brisbane] PHP Warning:  Missing argument 1 for Comment::__construct(), called in /home/ubuntu/workspace/week2/Task3/classes/Post.php on line 44 and defined in /home/ubuntu/workspace/week2/Task3/classes/Comment.php on line 9
+[26-Jul-2018 08:11:37 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 08:11:37 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 08:11:37 Australia/Brisbane] PHP   2. Post->addComment() /home/ubuntu/workspace/week2/Task3/index.php:65
+[26-Jul-2018 08:11:37 Australia/Brisbane] PHP   3. Comment->__construct() /home/ubuntu/workspace/week2/Task3/classes/Post.php:44
+[26-Jul-2018 08:11:37 Australia/Brisbane] PHP Warning:  Missing argument 2 for Comment::__construct(), called in /home/ubuntu/workspace/week2/Task3/classes/Post.php on line 44 and defined in /home/ubuntu/workspace/week2/Task3/classes/Comment.php on line 9
+[26-Jul-2018 08:11:37 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 08:11:37 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 08:11:37 Australia/Brisbane] PHP   2. Post->addComment() /home/ubuntu/workspace/week2/Task3/index.php:65
+[26-Jul-2018 08:11:37 Australia/Brisbane] PHP   3. Comment->__construct() /home/ubuntu/workspace/week2/Task3/classes/Post.php:44
+[26-Jul-2018 08:11:37 Australia/Brisbane] PHP Fatal error:  Call to undefined function addComment() in /home/ubuntu/workspace/week2/Task3/classes/Post.php on line 44
+[26-Jul-2018 08:11:37 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 08:11:37 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 08:11:37 Australia/Brisbane] PHP   2. Post->addComment() /home/ubuntu/workspace/week2/Task3/index.php:65
+[26-Jul-2018 08:11:40 Australia/Brisbane] PHP Warning:  Missing argument 1 for Comment::__construct(), called in /home/ubuntu/workspace/week2/Task3/classes/Post.php on line 44 and defined in /home/ubuntu/workspace/week2/Task3/classes/Comment.php on line 9
+[26-Jul-2018 08:11:40 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 08:11:40 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 08:11:40 Australia/Brisbane] PHP   2. Post->addComment() /home/ubuntu/workspace/week2/Task3/index.php:65
+[26-Jul-2018 08:11:40 Australia/Brisbane] PHP   3. Comment->__construct() /home/ubuntu/workspace/week2/Task3/classes/Post.php:44
+[26-Jul-2018 08:11:40 Australia/Brisbane] PHP Warning:  Missing argument 2 for Comment::__construct(), called in /home/ubuntu/workspace/week2/Task3/classes/Post.php on line 44 and defined in /home/ubuntu/workspace/week2/Task3/classes/Comment.php on line 9
+[26-Jul-2018 08:11:40 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 08:11:40 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 08:11:40 Australia/Brisbane] PHP   2. Post->addComment() /home/ubuntu/workspace/week2/Task3/index.php:65
+[26-Jul-2018 08:11:40 Australia/Brisbane] PHP   3. Comment->__construct() /home/ubuntu/workspace/week2/Task3/classes/Post.php:44
+[26-Jul-2018 08:11:40 Australia/Brisbane] PHP Fatal error:  Call to undefined function addComment() in /home/ubuntu/workspace/week2/Task3/classes/Post.php on line 44
+[26-Jul-2018 08:11:40 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 08:11:40 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 08:11:40 Australia/Brisbane] PHP   2. Post->addComment() /home/ubuntu/workspace/week2/Task3/index.php:65
+[26-Jul-2018 08:12:51 Australia/Brisbane] PHP Warning:  Missing argument 1 for Comment::__construct(), called in /home/ubuntu/workspace/week2/Task3/classes/Post.php on line 44 and defined in /home/ubuntu/workspace/week2/Task3/classes/Comment.php on line 9
+[26-Jul-2018 08:12:51 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 08:12:51 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 08:12:51 Australia/Brisbane] PHP   2. Post->addComment() /home/ubuntu/workspace/week2/Task3/index.php:65
+[26-Jul-2018 08:12:51 Australia/Brisbane] PHP   3. Comment->__construct() /home/ubuntu/workspace/week2/Task3/classes/Post.php:44
+[26-Jul-2018 08:12:51 Australia/Brisbane] PHP Warning:  Missing argument 2 for Comment::__construct(), called in /home/ubuntu/workspace/week2/Task3/classes/Post.php on line 44 and defined in /home/ubuntu/workspace/week2/Task3/classes/Comment.php on line 9
+[26-Jul-2018 08:12:51 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 08:12:51 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 08:12:51 Australia/Brisbane] PHP   2. Post->addComment() /home/ubuntu/workspace/week2/Task3/index.php:65
+[26-Jul-2018 08:12:51 Australia/Brisbane] PHP   3. Comment->__construct() /home/ubuntu/workspace/week2/Task3/classes/Post.php:44
+[26-Jul-2018 08:12:51 Australia/Brisbane] PHP Fatal error:  Call to undefined function addComment() in /home/ubuntu/workspace/week2/Task3/classes/Post.php on line 44
+[26-Jul-2018 08:12:51 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 08:12:51 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 08:12:51 Australia/Brisbane] PHP   2. Post->addComment() /home/ubuntu/workspace/week2/Task3/index.php:65
+[26-Jul-2018 08:12:54 Australia/Brisbane] PHP Warning:  Missing argument 1 for Comment::__construct(), called in /home/ubuntu/workspace/week2/Task3/classes/Post.php on line 44 and defined in /home/ubuntu/workspace/week2/Task3/classes/Comment.php on line 9
+[26-Jul-2018 08:12:54 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 08:12:54 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 08:12:54 Australia/Brisbane] PHP   2. Post->addComment() /home/ubuntu/workspace/week2/Task3/index.php:65
+[26-Jul-2018 08:12:54 Australia/Brisbane] PHP   3. Comment->__construct() /home/ubuntu/workspace/week2/Task3/classes/Post.php:44
+[26-Jul-2018 08:12:54 Australia/Brisbane] PHP Warning:  Missing argument 2 for Comment::__construct(), called in /home/ubuntu/workspace/week2/Task3/classes/Post.php on line 44 and defined in /home/ubuntu/workspace/week2/Task3/classes/Comment.php on line 9
+[26-Jul-2018 08:12:54 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 08:12:54 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 08:12:54 Australia/Brisbane] PHP   2. Post->addComment() /home/ubuntu/workspace/week2/Task3/index.php:65
+[26-Jul-2018 08:12:54 Australia/Brisbane] PHP   3. Comment->__construct() /home/ubuntu/workspace/week2/Task3/classes/Post.php:44
+[26-Jul-2018 08:12:54 Australia/Brisbane] PHP Fatal error:  Call to undefined function addComment() in /home/ubuntu/workspace/week2/Task3/classes/Post.php on line 44
+[26-Jul-2018 08:12:54 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 08:12:54 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 08:12:54 Australia/Brisbane] PHP   2. Post->addComment() /home/ubuntu/workspace/week2/Task3/index.php:65
+[26-Jul-2018 08:13:20 Australia/Brisbane] PHP Warning:  Missing argument 1 for Comment::__construct(), called in /home/ubuntu/workspace/week2/Task3/classes/Post.php on line 44 and defined in /home/ubuntu/workspace/week2/Task3/classes/Comment.php on line 9
+[26-Jul-2018 08:13:20 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 08:13:20 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 08:13:20 Australia/Brisbane] PHP   2. Post->addComment() /home/ubuntu/workspace/week2/Task3/index.php:65
+[26-Jul-2018 08:13:20 Australia/Brisbane] PHP   3. Comment->__construct() /home/ubuntu/workspace/week2/Task3/classes/Post.php:44
+[26-Jul-2018 08:13:20 Australia/Brisbane] PHP Warning:  Missing argument 2 for Comment::__construct(), called in /home/ubuntu/workspace/week2/Task3/classes/Post.php on line 44 and defined in /home/ubuntu/workspace/week2/Task3/classes/Comment.php on line 9
+[26-Jul-2018 08:13:20 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 08:13:20 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 08:13:20 Australia/Brisbane] PHP   2. Post->addComment() /home/ubuntu/workspace/week2/Task3/index.php:65
+[26-Jul-2018 08:13:20 Australia/Brisbane] PHP   3. Comment->__construct() /home/ubuntu/workspace/week2/Task3/classes/Post.php:44
+[26-Jul-2018 08:13:20 Australia/Brisbane] PHP Fatal error:  Call to undefined function addComment() in /home/ubuntu/workspace/week2/Task3/classes/Post.php on line 44
+[26-Jul-2018 08:13:20 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 08:13:20 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 08:13:20 Australia/Brisbane] PHP   2. Post->addComment() /home/ubuntu/workspace/week2/Task3/index.php:65
+[26-Jul-2018 08:14:10 Australia/Brisbane] PHP Warning:  Missing argument 1 for Comment::__construct(), called in /home/ubuntu/workspace/week2/Task3/classes/Post.php on line 44 and defined in /home/ubuntu/workspace/week2/Task3/classes/Comment.php on line 9
+[26-Jul-2018 08:14:10 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 08:14:10 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 08:14:10 Australia/Brisbane] PHP   2. Post->addComment() /home/ubuntu/workspace/week2/Task3/index.php:65
+[26-Jul-2018 08:14:10 Australia/Brisbane] PHP   3. Comment->__construct() /home/ubuntu/workspace/week2/Task3/classes/Post.php:44
+[26-Jul-2018 08:14:10 Australia/Brisbane] PHP Fatal error:  Call to undefined function addComment() in /home/ubuntu/workspace/week2/Task3/classes/Post.php on line 44
+[26-Jul-2018 08:14:10 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 08:14:10 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 08:14:10 Australia/Brisbane] PHP   2. Post->addComment() /home/ubuntu/workspace/week2/Task3/index.php:65
+[26-Jul-2018 08:14:46 Australia/Brisbane] PHP Fatal error:  Call to undefined function addComment() in /home/ubuntu/workspace/week2/Task3/classes/Post.php on line 44
+[26-Jul-2018 08:14:46 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 08:14:46 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 08:14:46 Australia/Brisbane] PHP   2. Post->addComment() /home/ubuntu/workspace/week2/Task3/index.php:65
+[26-Jul-2018 08:15:21 Australia/Brisbane] PHP Parse error:  syntax error, unexpected '[', expecting ')' in /home/ubuntu/workspace/week2/Task3/classes/Comment.php on line 12
+[26-Jul-2018 08:15:21 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 08:15:21 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 08:15:21 Australia/Brisbane] PHP   2. include() /home/ubuntu/workspace/week2/Task3/index.php:60
+[26-Jul-2018 08:15:21 Australia/Brisbane] PHP   3. include() /home/ubuntu/workspace/week2/Task3/classes/PostSeeder.php:2
+[26-Jul-2018 08:15:58 Australia/Brisbane] PHP Fatal error:  Call to undefined function addComment() in /home/ubuntu/workspace/week2/Task3/classes/Post.php on line 44
+[26-Jul-2018 08:15:58 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 08:15:58 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 08:15:58 Australia/Brisbane] PHP   2. Post->addComment() /home/ubuntu/workspace/week2/Task3/index.php:65
+[26-Jul-2018 08:17:35 Australia/Brisbane] PHP Fatal error:  Call to undefined function addComment() in /home/ubuntu/workspace/week2/Task3/classes/Post.php on line 44
+[26-Jul-2018 08:17:35 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 08:17:35 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 08:17:35 Australia/Brisbane] PHP   2. Post->addComment() /home/ubuntu/workspace/week2/Task3/index.php:65
+[26-Jul-2018 08:18:47 Australia/Brisbane] PHP Fatal error:  Call to undefined function addComment() in /home/ubuntu/workspace/week2/Task3/classes/Post.php on line 44
+[26-Jul-2018 08:18:47 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 08:18:47 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 08:18:47 Australia/Brisbane] PHP   2. Post->addComment() /home/ubuntu/workspace/week2/Task3/index.php:65
+[26-Jul-2018 08:18:56 Australia/Brisbane] PHP Fatal error:  Call to undefined function addComment() in /home/ubuntu/workspace/week2/Task3/classes/Post.php on line 44
+[26-Jul-2018 08:18:56 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 08:18:56 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 08:18:56 Australia/Brisbane] PHP   2. Post->addComment() /home/ubuntu/workspace/week2/Task3/index.php:65
+[26-Jul-2018 08:20:50 Australia/Brisbane] PHP Fatal error:  Call to undefined function addComment() in /home/ubuntu/workspace/week2/Task3/classes/Post.php on line 44
+[26-Jul-2018 08:20:50 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 08:20:50 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 08:20:50 Australia/Brisbane] PHP   2. Post->addComment() /home/ubuntu/workspace/week2/Task3/index.php:65
+[26-Jul-2018 08:21:22 Australia/Brisbane] PHP Fatal error:  Call to undefined function addComment() in /home/ubuntu/workspace/week2/Task3/classes/Post.php on line 44
+[26-Jul-2018 08:21:22 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 08:21:22 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 08:21:22 Australia/Brisbane] PHP   2. Post->addComment() /home/ubuntu/workspace/week2/Task3/index.php:65
+[26-Jul-2018 08:21:36 Australia/Brisbane] PHP Fatal error:  Call to undefined function addComment() in /home/ubuntu/workspace/week2/Task3/classes/Post.php on line 44
+[26-Jul-2018 08:21:36 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 08:21:36 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 08:21:36 Australia/Brisbane] PHP   2. Post->addComment() /home/ubuntu/workspace/week2/Task3/index.php:65
+[26-Jul-2018 08:21:54 Australia/Brisbane] PHP Warning:  The use statement with non-compound name 'Comment' has no effect in /home/ubuntu/workspace/week2/Task3/classes/Post.php on line 3
+[26-Jul-2018 08:21:54 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 08:21:54 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 08:21:54 Australia/Brisbane] PHP   2. include() /home/ubuntu/workspace/week2/Task3/index.php:60
+[26-Jul-2018 08:21:54 Australia/Brisbane] PHP Fatal error:  Call to undefined function addComment() in /home/ubuntu/workspace/week2/Task3/classes/Post.php on line 44
+[26-Jul-2018 08:21:54 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 08:21:54 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 08:21:54 Australia/Brisbane] PHP   2. Post->addComment() /home/ubuntu/workspace/week2/Task3/index.php:65
+[26-Jul-2018 08:23:31 Australia/Brisbane] PHP Fatal error:  Undefined constant 'wp' in /home/ubuntu/workspace/week2/Task3/classes/Post.php on line 2
+[26-Jul-2018 08:23:31 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 08:23:31 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 08:23:31 Australia/Brisbane] PHP   2. include() /home/ubuntu/workspace/week2/Task3/index.php:60
+[26-Jul-2018 08:23:31 Australia/Brisbane] PHP   3. include() /home/ubuntu/workspace/week2/Task3/classes/PostSeeder.php:2
+[26-Jul-2018 08:23:58 Australia/Brisbane] PHP Fatal error:  Call to undefined function addComment() in /home/ubuntu/workspace/week2/Task3/classes/Post.php on line 43
+[26-Jul-2018 08:23:58 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 08:23:58 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 08:23:58 Australia/Brisbane] PHP   2. Post->addComment() /home/ubuntu/workspace/week2/Task3/index.php:65
+[26-Jul-2018 08:26:19 Australia/Brisbane] PHP Fatal error:  Call to undefined function addComment() in /home/ubuntu/workspace/week2/Task3/classes/Post.php on line 43
+[26-Jul-2018 08:26:19 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 08:26:19 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 08:26:19 Australia/Brisbane] PHP   2. Post->addComment() /home/ubuntu/workspace/week2/Task3/index.php:65
+[26-Jul-2018 08:28:23 Australia/Brisbane] PHP Fatal error:  Class name must be a valid object or a string in /home/ubuntu/workspace/week2/Task3/classes/Post.php on line 43
+[26-Jul-2018 08:28:23 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 08:28:23 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 08:28:23 Australia/Brisbane] PHP   2. Post->addComment() /home/ubuntu/workspace/week2/Task3/index.php:65
+[26-Jul-2018 08:30:41 Australia/Brisbane] PHP Fatal error:  Undefined constant 'wp' in /home/ubuntu/workspace/week2/Task3/classes/PostSeeder.php on line 4
+[26-Jul-2018 08:30:41 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 08:30:41 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 08:30:41 Australia/Brisbane] PHP   2. include() /home/ubuntu/workspace/week2/Task3/index.php:60
+[26-Jul-2018 08:31:01 Australia/Brisbane] PHP Fatal error:  Undefined constant 'wp' in /home/ubuntu/workspace/week2/Task3/classes/PostSeeder.php on line 4
+[26-Jul-2018 08:31:01 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 08:31:01 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 08:31:01 Australia/Brisbane] PHP   2. include() /home/ubuntu/workspace/week2/Task3/index.php:60
+[26-Jul-2018 08:32:06 Australia/Brisbane] PHP Fatal error:  Undefined constant 'wp' in /home/ubuntu/workspace/week2/Task3/classes/PostSeeder.php on line 4
+[26-Jul-2018 08:32:06 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 08:32:06 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 08:32:06 Australia/Brisbane] PHP   2. include() /home/ubuntu/workspace/week2/Task3/index.php:60
+[26-Jul-2018 08:32:32 Australia/Brisbane] PHP Fatal error:  Undefined constant 'wp' in /home/ubuntu/workspace/week2/Task3/classes/PostSeeder.php on line 4
+[26-Jul-2018 08:32:32 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 08:32:32 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 08:32:32 Australia/Brisbane] PHP   2. include() /home/ubuntu/workspace/week2/Task3/index.php:60
+[26-Jul-2018 08:32:47 Australia/Brisbane] PHP Parse error:  syntax error, unexpected '/', expecting identifier (T_STRING) or \\ (T_NS_SEPARATOR) or '{' in /home/ubuntu/workspace/week2/Task3/classes/PostSeeder.php on line 4
+[26-Jul-2018 08:32:47 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 08:32:47 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 08:33:09 Australia/Brisbane] PHP Fatal error:  Undefined constant 'wp' in /home/ubuntu/workspace/week2/Task3/classes/PostSeeder.php on line 4
+[26-Jul-2018 08:33:09 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 08:33:09 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 08:33:09 Australia/Brisbane] PHP   2. include() /home/ubuntu/workspace/week2/Task3/index.php:60
+[26-Jul-2018 08:33:33 Australia/Brisbane] PHP Fatal error:  Undefined constant 'wp' in /home/ubuntu/workspace/week2/Task3/classes/PostSeeder.php on line 4
+[26-Jul-2018 08:33:33 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 08:33:33 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 08:33:33 Australia/Brisbane] PHP   2. include() /home/ubuntu/workspace/week2/Task3/index.php:60
+[26-Jul-2018 08:34:04 Australia/Brisbane] PHP Fatal error:  Call to undefined function addComment() in /home/ubuntu/workspace/week2/Task3/classes/Post.php on line 44
+[26-Jul-2018 08:34:04 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 08:34:04 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 08:34:04 Australia/Brisbane] PHP   2. Post->addComment() /home/ubuntu/workspace/week2/Task3/index.php:65
+[26-Jul-2018 08:35:38 Australia/Brisbane] PHP Fatal error:  Cannot use object of type Comment as array in /home/ubuntu/workspace/week2/Task3/index.php on line 135
+[26-Jul-2018 08:35:38 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 08:35:38 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 08:36:14 Australia/Brisbane] PHP Fatal error:  Call to undefined function Comment() in /home/ubuntu/workspace/week2/Task3/classes/Post.php on line 44
+[26-Jul-2018 08:36:14 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 08:36:14 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 08:36:14 Australia/Brisbane] PHP   2. Post->addComment() /home/ubuntu/workspace/week2/Task3/index.php:65
+[26-Jul-2018 08:36:24 Australia/Brisbane] PHP Fatal error:  Cannot use object of type Comment as array in /home/ubuntu/workspace/week2/Task3/index.php on line 135
+[26-Jul-2018 08:36:24 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 08:36:24 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 08:38:20 Australia/Brisbane] PHP Fatal error:  Cannot use object of type Comment as array in /home/ubuntu/workspace/week2/Task3/index.php on line 135
+[26-Jul-2018 08:38:20 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 08:38:20 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 08:40:41 Australia/Brisbane] PHP Warning:  include(Comment.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/week2/Task2/classes/PostSeeder.php on line 3
+[26-Jul-2018 08:40:41 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 08:40:41 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[26-Jul-2018 08:40:41 Australia/Brisbane] PHP   2. include() /home/ubuntu/workspace/week2/Task2/index.php:60
+[26-Jul-2018 08:40:41 Australia/Brisbane] PHP Warning:  include(): Failed opening 'Comment.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/week2/Task2/classes/PostSeeder.php on line 3
+[26-Jul-2018 08:40:41 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 08:40:41 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[26-Jul-2018 08:40:41 Australia/Brisbane] PHP   2. include() /home/ubuntu/workspace/week2/Task2/index.php:60
+[26-Jul-2018 09:18:50 Australia/Brisbane] PHP Fatal error:  Undefined constant 'wp' in /home/ubuntu/workspace/week2/Task3/classes/PostSeeder.php on line 4
+[26-Jul-2018 09:18:50 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 09:18:50 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 09:18:50 Australia/Brisbane] PHP   2. include() /home/ubuntu/workspace/week2/Task3/index.php:60
+[26-Jul-2018 09:19:08 Australia/Brisbane] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/ubuntu/workspace/week2/Task3/classes/PostSeeder.php on line 4
+[26-Jul-2018 09:19:08 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 09:19:08 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 09:19:42 Australia/Brisbane] PHP Fatal error:  Class 'PostSeeder' not found in /home/ubuntu/workspace/week2/Task3/index.php on line 62
+[26-Jul-2018 09:19:42 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 09:19:42 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 09:20:30 Australia/Brisbane] PHP Fatal error:  Class 'PostSeeder' not found in /home/ubuntu/workspace/week2/Task3/index.php on line 62
+[26-Jul-2018 09:20:30 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 09:20:30 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 09:21:48 Australia/Brisbane] PHP Fatal error:  Class 'Post' not found in /home/ubuntu/workspace/week2/Task2/classes/PostSeeder.php on line 9
+[26-Jul-2018 09:21:48 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 09:21:48 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[26-Jul-2018 09:21:48 Australia/Brisbane] PHP   2. PostSeeder::seed() /home/ubuntu/workspace/week2/Task2/index.php:62
+[26-Jul-2018 09:22:18 Australia/Brisbane] PHP Fatal error:  Class 'Post' not found in /home/ubuntu/workspace/week2/Task2/classes/PostSeeder.php on line 9
+[26-Jul-2018 09:22:18 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 09:22:18 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[26-Jul-2018 09:22:18 Australia/Brisbane] PHP   2. PostSeeder::seed() /home/ubuntu/workspace/week2/Task2/index.php:62
+[26-Jul-2018 09:23:03 Australia/Brisbane] PHP Fatal error:  Class 'Post' not found in /home/ubuntu/workspace/week2/Task2/classes/PostSeeder.php on line 9
+[26-Jul-2018 09:23:03 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 09:23:03 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[26-Jul-2018 09:23:03 Australia/Brisbane] PHP   2. PostSeeder::seed() /home/ubuntu/workspace/week2/Task2/index.php:62
+[26-Jul-2018 09:23:05 Australia/Brisbane] PHP Fatal error:  Class 'Post' not found in /home/ubuntu/workspace/week2/Task2/classes/PostSeeder.php on line 9
+[26-Jul-2018 09:23:05 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 09:23:05 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task2/index.php:0
+[26-Jul-2018 09:23:05 Australia/Brisbane] PHP   2. PostSeeder::seed() /home/ubuntu/workspace/week2/Task2/index.php:62
+[26-Jul-2018 09:23:16 Australia/Brisbane] PHP Fatal error:  Class 'Post' not found in /home/ubuntu/workspace/week2/Task3/classes/PostSeeder.php on line 10
+[26-Jul-2018 09:23:16 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 09:23:16 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 09:23:16 Australia/Brisbane] PHP   2. PostSeeder::seed() /home/ubuntu/workspace/week2/Task3/index.php:63
+[26-Jul-2018 09:23:56 Australia/Brisbane] PHP Warning:  The use statement with non-compound name 'wp' has no effect in /home/ubuntu/workspace/week2/Task3/classes/Post.php on line 2
+[26-Jul-2018 09:23:56 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 09:23:56 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 09:23:56 Australia/Brisbane] PHP   2. include() /home/ubuntu/workspace/week2/Task3/index.php:60
+[26-Jul-2018 09:23:56 Australia/Brisbane] PHP Fatal error:  Class 'PostSeeder' not found in /home/ubuntu/workspace/week2/Task3/index.php on line 63
+[26-Jul-2018 09:23:56 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 09:23:56 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 09:24:09 Australia/Brisbane] PHP Fatal error:  Class 'PostSeeder' not found in /home/ubuntu/workspace/week2/Task3/index.php on line 63
+[26-Jul-2018 09:24:09 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 09:24:09 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 09:25:49 Australia/Brisbane] PHP Fatal error:  Class 'PostSeeder' not found in /home/ubuntu/workspace/week2/Task3/index.php on line 63
+[26-Jul-2018 09:25:49 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 09:25:49 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 09:25:52 Australia/Brisbane] PHP Fatal error:  Class 'PostSeeder' not found in /home/ubuntu/workspace/week2/Task3/index.php on line 63
+[26-Jul-2018 09:25:52 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 09:25:52 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 09:26:28 Australia/Brisbane] PHP Fatal error:  Class 'Post' not found in /home/ubuntu/workspace/week2/Task3/classes/PostSeeder.php on line 10
+[26-Jul-2018 09:26:28 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 09:26:28 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 09:26:28 Australia/Brisbane] PHP   2. PostSeeder::seed() /home/ubuntu/workspace/week2/Task3/index.php:63
+[26-Jul-2018 09:26:45 Australia/Brisbane] PHP Fatal error:  Class 'Post' not found in /home/ubuntu/workspace/week2/Task3/classes/PostSeeder.php on line 9
+[26-Jul-2018 09:26:45 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 09:26:45 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 09:26:45 Australia/Brisbane] PHP   2. PostSeeder::seed() /home/ubuntu/workspace/week2/Task3/index.php:63
+[26-Jul-2018 09:27:12 Australia/Brisbane] PHP Fatal error:  Undefined constant 'wp' in /home/ubuntu/workspace/week2/Task3/classes/PostSeeder.php on line 4
+[26-Jul-2018 09:27:12 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 09:27:12 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 09:27:12 Australia/Brisbane] PHP   2. include() /home/ubuntu/workspace/week2/Task3/index.php:60
+[26-Jul-2018 09:27:34 Australia/Brisbane] PHP Fatal error:  Undefined constant 'wp' in /home/ubuntu/workspace/week2/Task3/classes/Post.php on line 3
+[26-Jul-2018 09:27:34 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 09:27:34 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 09:27:34 Australia/Brisbane] PHP   2. include() /home/ubuntu/workspace/week2/Task3/index.php:60
+[26-Jul-2018 09:27:34 Australia/Brisbane] PHP   3. include() /home/ubuntu/workspace/week2/Task3/classes/PostSeeder.php:2
+[26-Jul-2018 09:31:58 Australia/Brisbane] PHP Fatal error:  Class 'wp\Comment' not found in /home/ubuntu/workspace/week2/Task3/classes/Post.php on line 45
+[26-Jul-2018 09:31:58 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 09:31:58 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 09:31:58 Australia/Brisbane] PHP   2. wp\Post->addComment() /home/ubuntu/workspace/week2/Task3/index.php:66
+[26-Jul-2018 09:32:05 Australia/Brisbane] PHP Fatal error:  Class 'wp\Comment' not found in /home/ubuntu/workspace/week2/Task3/classes/Post.php on line 45
+[26-Jul-2018 09:32:05 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 09:32:05 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 09:32:05 Australia/Brisbane] PHP   2. wp\Post->addComment() /home/ubuntu/workspace/week2/Task3/index.php:66
+[26-Jul-2018 09:33:01 Australia/Brisbane] PHP Fatal error:  Class 'wp\Comment' not found in /home/ubuntu/workspace/week2/Task3/classes/Post.php on line 47
+[26-Jul-2018 09:33:01 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 09:33:01 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 09:33:01 Australia/Brisbane] PHP   2. wp\Post->addComment() /home/ubuntu/workspace/week2/Task3/index.php:66
+[26-Jul-2018 09:33:28 Australia/Brisbane] PHP Fatal error:  Class 'wp\Post' not found in /home/ubuntu/workspace/week2/Task3/classes/PostSeeder.php on line 11
+[26-Jul-2018 09:33:28 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 09:33:28 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 09:33:28 Australia/Brisbane] PHP   2. PostSeeder::seed() /home/ubuntu/workspace/week2/Task3/index.php:63
+[26-Jul-2018 12:22:09 Australia/Brisbane] PHP Fatal error:  Call to undefined method ws\Post::getComments() in /home/ubuntu/workspace/week2/Task3/index.php on line 132
+[26-Jul-2018 12:22:09 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 12:22:09 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 12:22:54 Australia/Brisbane] PHP Fatal error:  Class 'wp\Post' not found in /home/ubuntu/workspace/week2/Task3/classes/PostSeeder.php on line 11
+[26-Jul-2018 12:22:54 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 12:22:54 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 12:22:54 Australia/Brisbane] PHP   2. PostSeeder::seed() /home/ubuntu/workspace/week2/Task3/index.php:63
+[26-Jul-2018 12:23:14 Australia/Brisbane] PHP Fatal error:  Call to undefined method Post::getComments() in /home/ubuntu/workspace/week2/Task3/index.php on line 132
+[26-Jul-2018 12:23:14 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 12:23:14 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 12:37:21 Australia/Brisbane] PHP Fatal error:  Call to undefined method Post::getComments() in /home/ubuntu/workspace/week2/Task3/index.php on line 132
+[26-Jul-2018 12:37:21 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 12:37:21 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 12:41:27 Australia/Brisbane] PHP Fatal error:  Call to undefined method Post::getComments() in /home/ubuntu/workspace/week2/Task3/index.php on line 132
+[26-Jul-2018 12:41:27 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 12:41:27 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 12:58:01 Australia/Brisbane] PHP Fatal error:  Using $this when not in object context in /home/ubuntu/workspace/week2/Task3/classes/Comment.php on line 16
+[26-Jul-2018 12:58:01 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 12:58:01 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 12:58:01 Australia/Brisbane] PHP   2. Post->addComment() /home/ubuntu/workspace/week2/Task3/index.php:66
+[26-Jul-2018 12:58:01 Australia/Brisbane] PHP   3. wp\Comment::addComment() /home/ubuntu/workspace/week2/Task3/classes/Post.php:46
+[26-Jul-2018 12:58:26 Australia/Brisbane] PHP Fatal error:  Using $this when not in object context in /home/ubuntu/workspace/week2/Task3/classes/Comment.php on line 16
+[26-Jul-2018 12:58:26 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 12:58:26 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 12:58:26 Australia/Brisbane] PHP   2. Post->addComment() /home/ubuntu/workspace/week2/Task3/index.php:66
+[26-Jul-2018 12:58:26 Australia/Brisbane] PHP   3. wp\Comment::addComment() /home/ubuntu/workspace/week2/Task3/classes/Post.php:46
+[26-Jul-2018 13:32:21 Australia/Brisbane] PHP Fatal error:  Cannot use object of type wp\Comment as array in /home/ubuntu/workspace/week2/Task3/index.php on line 136
+[26-Jul-2018 13:32:21 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 13:32:21 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 13:32:50 Australia/Brisbane] PHP Fatal error:  Cannot use object of type wp\Comment as array in /home/ubuntu/workspace/week2/Task3/index.php on line 136
+[26-Jul-2018 13:32:50 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 13:32:50 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 13:36:12 Australia/Brisbane] PHP Fatal error:  Cannot use object of type wp\Comment as array in /home/ubuntu/workspace/week2/Task3/index.php on line 136
+[26-Jul-2018 13:36:12 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 13:36:12 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 13:40:31 Australia/Brisbane] PHP Fatal error:  Cannot use object of type wp\Comment as array in /home/ubuntu/workspace/week2/Task3/index.php on line 136
+[26-Jul-2018 13:40:31 Australia/Brisbane] PHP Stack trace:
+[26-Jul-2018 13:40:31 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week2/Task3/index.php:0
+[26-Jul-2018 04:05:56 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/week2/Task3/index.php on line 136

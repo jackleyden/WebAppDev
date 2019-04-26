@@ -1,0 +1,39 @@
+[19-Jul-2018 11:19:13 Australia/Brisbane] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/week1/Task3/index.php on line 42
+[19-Jul-2018 11:19:13 Australia/Brisbane] PHP Stack trace:
+[19-Jul-2018 11:19:13 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week1/Task3/index.php:0
+[19-Jul-2018 11:19:13 Australia/Brisbane] PHP   2. array_push() /home/ubuntu/workspace/week1/Task3/index.php:42
+[19-Jul-2018 11:19:23 Australia/Brisbane] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/week1/Task3/index.php on line 42
+[19-Jul-2018 11:19:23 Australia/Brisbane] PHP Stack trace:
+[19-Jul-2018 11:19:23 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week1/Task3/index.php:0
+[19-Jul-2018 11:19:23 Australia/Brisbane] PHP   2. array_push() /home/ubuntu/workspace/week1/Task3/index.php:42
+[19-Jul-2018 11:24:50 Australia/Brisbane] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/week1/Task3/index.php on line 42
+[19-Jul-2018 11:24:50 Australia/Brisbane] PHP Stack trace:
+[19-Jul-2018 11:24:50 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week1/Task3/index.php:0
+[19-Jul-2018 11:24:50 Australia/Brisbane] PHP   2. array_push() /home/ubuntu/workspace/week1/Task3/index.php:42
+[19-Jul-2018 11:32:27 Australia/Brisbane] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/week1/Task3/index.php on line 41
+[19-Jul-2018 11:32:27 Australia/Brisbane] PHP Stack trace:
+[19-Jul-2018 11:32:27 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week1/Task3/index.php:0
+[19-Jul-2018 11:32:35 Australia/Brisbane] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/week1/Task3/index.php on line 41
+[19-Jul-2018 11:32:35 Australia/Brisbane] PHP Stack trace:
+[19-Jul-2018 11:32:35 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week1/Task3/index.php:0
+[19-Jul-2018 11:32:36 Australia/Brisbane] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/week1/Task3/index.php on line 41
+[19-Jul-2018 11:32:36 Australia/Brisbane] PHP Stack trace:
+[19-Jul-2018 11:32:36 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week1/Task3/index.php:0
+[19-Jul-2018 11:32:37 Australia/Brisbane] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/week1/Task3/index.php on line 41
+[19-Jul-2018 11:32:37 Australia/Brisbane] PHP Stack trace:
+[19-Jul-2018 11:32:37 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week1/Task3/index.php:0
+[19-Jul-2018 11:32:37 Australia/Brisbane] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/week1/Task3/index.php on line 41
+[19-Jul-2018 11:32:37 Australia/Brisbane] PHP Stack trace:
+[19-Jul-2018 11:32:37 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week1/Task3/index.php:0
+[19-Jul-2018 11:34:44 Australia/Brisbane] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/week1/Task3/index.php on line 41
+[19-Jul-2018 11:34:44 Australia/Brisbane] PHP Stack trace:
+[19-Jul-2018 11:34:44 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week1/Task3/index.php:0
+[19-Jul-2018 11:37:12 Australia/Brisbane] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/week1/Task3/index.php on line 41
+[19-Jul-2018 11:37:12 Australia/Brisbane] PHP Stack trace:
+[19-Jul-2018 11:37:12 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week1/Task3/index.php:0
+[19-Jul-2018 11:39:25 Australia/Brisbane] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/week1/Task3/index.php on line 41
+[19-Jul-2018 11:39:25 Australia/Brisbane] PHP Stack trace:
+[19-Jul-2018 11:39:25 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week1/Task3/index.php:0
+[19-Jul-2018 11:40:00 Australia/Brisbane] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/week1/Task3/index.php on line 41
+[19-Jul-2018 11:40:00 Australia/Brisbane] PHP Stack trace:
+[19-Jul-2018 11:40:00 Australia/Brisbane] PHP   1. {main}() /home/ubuntu/workspace/week1/Task3/index.php:0

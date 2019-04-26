@@ -1,0 +1,40 @@
+export PATH=~/.composer/vendor/bin:$PATH
+php artisan serve --host $IP --port $PORT
+at start run code.
+
+run server:
+php artisan serve --host $IP --port $PORT
+
+
+
+Migrations:
+make migration file:
+php artisan make:migration create_product_table
+php artisan migrate
+php artisan migrate:rollback
+php artisan migrate:reset
+php artisan migrate:refresh --seed
+
+Seeding:
+php artisan make:seeder ProductsTableSeeder
+php artisan db:seed
+php artisan db:seed - class=ProductsTableSeeder
+
+Models:
+php artisan make:model Product
+
+Controller:
+php artisan make:controller ProductController --resource
+//add to router
+Route::resource('product','ProductController');
+
+
+php artisan route:list
+
+
+Middleware:
+
+php artisan make:middleware IsAdmin
+
+symbolic link:
+ln -s ~/workspace/assignment2/storage/app/public/images public/images

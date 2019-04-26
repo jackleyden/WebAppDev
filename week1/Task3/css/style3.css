@@ -1,0 +1,32 @@
+
+
+#nav {
+    border-color: white;
+    border-style: solid;
+    padding:10px;
+    margin:10px;
+}
+
+#content {
+    border-color: red;
+    border-style: solid;
+    padding:10px;
+    margin:10px;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+button, input{
+    color: black;
+}
+
+a, a:link, a:hover {
+    color: red;
+}
+
+#HIDEME {
+    display: none;
+}

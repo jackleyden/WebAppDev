@@ -1,0 +1,10 @@
+[01-Aug-2018 22:42:47 UTC] PHP Warning:  Missing argument 4 for search(), called in /home/ubuntu/workspace/week3/Task2/assoc/results.php on line 16 and defined in /home/ubuntu/workspace/week3/Task2/assoc/includes/defs.php on line 8
+[01-Aug-2018 22:42:47 UTC] PHP Stack trace:
+[01-Aug-2018 22:42:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/week3/Task2/assoc/results.php:0
+[01-Aug-2018 22:42:47 UTC] PHP   2. search() /home/ubuntu/workspace/week3/Task2/assoc/results.php:16
+[01-Aug-2018 22:46:24 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/week3/Task2/assoc/includes/defs.php on line 66
+[01-Aug-2018 22:46:24 UTC] PHP Stack trace:
+[01-Aug-2018 22:46:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/week3/Task2/assoc/results.php:0
+[01-Aug-2018 22:47:05 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/week3/Task2/assoc/includes/defs.php on line 66
+[01-Aug-2018 22:47:05 UTC] PHP Stack trace:
+[01-Aug-2018 22:47:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/week3/Task2/assoc/results.php:0

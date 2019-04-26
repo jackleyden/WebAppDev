@@ -1,0 +1,74 @@
+#nav {
+    display:block;
+    border-color: white;
+    border-style: solid;
+    margin-top:10px;
+    text-align:center;
+}
+
+.container a {
+    font-size: 15px;
+}
+#content {
+    padding:10px;
+    margin:10px;
+    background-color: black;
+}
+
+body {
+    background-color: black;
+    background-image: url('../images/bg.jpg');
+    background-repeat: repeat;
+    background-size: 100%;
+    color: white;
+    font-size: 15px;
+}
+
+button, input, textarea, select{
+    color: black;
+}
+
+a, a:link, a:hover {
+    color: white;
+}
+
+#HIDEME {
+    display: none;
+}
+
+#Search_btn {
+    padding-left:10px;
+}
+
+h1, h2, h3, h4, h5, h6, a{
+    font-family: 'Corben', Georgia, Times, serif;
+}
+p, div {
+    font-family: 'Nobile', Helvetica, Arial, sans-serif;
+}
+
+h5 {
+    color: green;
+}
+h4 {
+    color: #a0a0a0;
+}
+
+#NLink  {
+    font-size: 15pt;
+}
+#Ndiv:hover  {
+    background-color: grey;
+}
+
+.formstyle {
+    display: block;
+    text-align: center;
+}
+
+form {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
